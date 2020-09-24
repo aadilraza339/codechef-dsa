@@ -97,7 +97,7 @@
 
     .dsa-banner button {
         margin-left: 7%;
-        width: 252px;
+        width: 213px;
         height: 53px;
         font-size: 16px;
         padding: 18px;
@@ -129,11 +129,14 @@
         font-size: 18px;
         letter-spacing: 0.25px;
         float: left;
+        padding-left: 2px;
+        padding-top: 2px;
     }
     .date {
         font-size: 24px;
         float: right;
         padding-right: 25px;
+        margin-top: 11px;
     }
 
     .line {
