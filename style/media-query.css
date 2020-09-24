@@ -1,0 +1,146 @@
+@media only screen and (max-width: 400px) {
+    * {
+    margin: 0;
+    padding: 0%;
+    width: auto;
+    }
+
+    .header-bar {
+        font-weight: 100;
+        border-bottom: 1px solid #eaeaeb;
+        height: 102px;
+        font-family: 'ubuntu', sans-serif;
+        font-size: 14px;
+    }
+    .header-left {
+        padding-top: 25px;
+        padding-left: 41px;
+
+    }
+    .header-right {
+            padding-right: 11%;
+    }
+    .phone {
+        padding-left: 20px;
+    }
+    .header-left span{
+        padding-left: 5px ;
+    }
+    .header-right div {
+        padding-right: 24px;
+    }
+    .header-right button {
+        font-weight: 100;
+        font-size: 14px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px;
+        height: 35px;
+        width: 100px;
+    }
+    .header-right .login {
+        margin-top: 21px ;
+        font-size: 16px;
+        font-weight: 110;
+    }
+    .second {
+        width: 283px;
+    }
+    .nav-bar {
+        margin-top: 5%;
+    }
+    .right-menu-bar {
+        float: none;
+    }
+    .right-menu-bar ul li {
+        padding-left: 25px;
+        width: 46px;
+        list-style: none;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .right-menu-bar ul {
+        padding-left: 10px;
+        
+    }
+    .home p {
+        width: 14px;
+    }
+    .dots {
+        padding-right: 16.9%;
+        float: right;
+    }
+    /* ======== */
+    .dsa-banner{
+        height: 720px;
+        margin-top: 6.8%;
+    }
+
+    .dsa-info {
+        float: left;
+        font-family: 'Ubuntu',sans-serif;
+        margin-left: 0%;
+        padding-left: 25px;
+    }
+    .dsa-banner h1 {
+        font-size: 41px;
+        color: #4a4a4a;
+        line-height: 53px;
+        letter-spacing: .25px;
+    }
+
+    .dsa-banner p {
+        font-size: 28.9px;
+        margin-top: 11px;
+        line-height: 48px;
+    }
+
+    .dsa-banner button {
+        margin-left: 7%;
+        width: 252px;
+        height: 53px;
+        font-size: 16px;
+        padding: 18px;
+        margin-top: 49px;
+        color: white;
+    }
+
+    .chef-img {
+        float: right;
+        padding-right: 0%;
+        margin-top: -5.7%;
+    }
+    .registration {
+        height: 99px;   
+    } 
+    .reg-cont {
+        display: inherit;
+        margin-left: 0%;
+        padding-left: 10px;
+        
+    }
+
+    .com {
+        padding-left:0px;
+    }
+    
+    
+    .title {
+        font-size: 18px;
+        letter-spacing: 0.25px;
+        float: left;
+    }
+    .date {
+        font-size: 24px;
+        float: right;
+        padding-right: 25px;
+    }
+
+    .line {
+        border: none;
+        margin-left: 0px;
+        height:0%;
+        float: left;
+    }
+   
+  }
