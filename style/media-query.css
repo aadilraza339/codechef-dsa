@@ -1,9 +1,9 @@
 @media only screen and (max-width: 400px) {
-    * {
+    /* * {
     margin: 0;
     padding: 0%;
     width: auto;
-    }
+    } */
 
     .header-bar {
         font-weight: 100;
@@ -36,12 +36,18 @@
         padding: 5px;
         border-radius: 3px;
         height: 35px;
-        width: 100px;
+        /* width: 100px; */
     }
     .header-right .login {
         margin-top: 21px ;
         font-size: 16px;
         font-weight: 110;
+    }
+
+    .one-line{
+        position: relative;
+        left: 0%;
+        padding-left: 70px
     }
     .second {
         width: 283px;
@@ -54,7 +60,6 @@
     }
     .right-menu-bar ul li {
         padding-left: 25px;
-        width: 46px;
         list-style: none;
         font-size: 16px;
         font-weight: 300;
@@ -62,9 +67,6 @@
     .right-menu-bar ul {
         padding-left: 10px;
         
-    }
-    .home p {
-        width: 14px;
     }
     .dots {
         padding-right: 16.9%;
@@ -97,7 +99,6 @@
 
     .dsa-banner button {
         margin-left: 7%;
-        width: 213px;
         height: 53px;
         font-size: 16px;
         padding: 18px;
@@ -145,5 +146,51 @@
         height:0%;
         float: left;
     }
+
+    .dsa-certi {
+        height: 800px;
+    }
+    
+    .dsa-certi h1 {
+        font-size: 43px;
+        padding-top: 67px;
+    }
+    
+    .dsa-Description p {
+        padding-top: 37px;
+        font-size: 22px;
+        padding-left: 31px;
+        letter-spacing: 1.9px;
+    }
+    .enrol {
+        margin-top: 11%;
+    }
+    .enrol h1{
+        text-align: start;
+        font-size: 49px;
+        padding-left: 31px;
+    }
+    .enrol ul {
+        display: -webkit-inline-flex;
+        margin-top: 6.7%;
+        margin-left: 12px;
+    }
+    .enrol ul li {
+        padding-left: 21px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .horizontal {
+        width: 42px;
+    }
+    .foundation {
+        margin-top: -0.5%;
+    }
+    .enrol p {
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding-left: 28px;
+    }
+    
    
   }

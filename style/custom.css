@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Ubuntu',sans-serif;
 }
 
 .conainer{
@@ -13,7 +14,6 @@
     border-bottom: 1px solid #eaeaeb;
     background-color: #ffffff;
     height: 70px;
-    font-family: 'ubuntu', sans-serif;
     margin-top: 1%;
     text-align: center;
 
@@ -66,7 +66,6 @@
 
 
 .right-menu-bar ul {
-    font-family: 'ubuntu', sans-serif;
     display: -webkit-inline-flex;
     
 }
@@ -126,12 +125,11 @@
 
 .dsa-banner{
     height: 560px;
-    margin-top: 6.8%;
+    margin-top: 8%;
 }
 
 .dsa-info {
     padding-top:    9%;
-    font-family: 'Ubuntu',sans-serif;
     margin-left: 19%;
 }
 
@@ -179,14 +177,12 @@
     width: 100%;
     background-color: rgb(59, 56, 56);
     height: 65px;   
-    font-family: 'Ubuntu',sans-serif;
     letter-spacing: 0.25px;
 }
 .reg-cont {
     display: -webkit-inline-flex;
     color: white;
     margin-left: 15%;
-    /* margin-top: 18px; */
     padding-left: 1%;
 }
 
@@ -213,5 +209,118 @@
     height: 60%;
 }
 
+/* dsa-certi */
 
+.dsa-certi {
+    height: 522px;
+    background-color: #f2f6f8;
+}
 
+.dsa-certi h1 {
+    font-size: 53px;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: .5px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.dsa-Description p {
+    padding-top: 42px;
+    font-size: 22px;
+    padding-left: 324px;
+    color: #4a4a4a;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.enrol {
+    margin-top: 3%;
+}
+.enrol h1{
+    text-align: center;
+    font-size: 49px;
+    letter-spacing: 1.5px;
+    /* color: #4a4a4a; */
+    color: #34404b;
+}
+
+.enrol ul {
+    display: -webkit-inline-flex;
+    margin-top: 1.7%;
+    margin-left: 28%;
+    color: #ff5912;
+
+}¡
+.enrol ul li {
+    padding-left: 111px;
+    padding: 1;
+    list-style: none;
+    font-size: 27px;
+    font-weight: 600;
+}
+.enrol li:nth-of-type(1) {
+    color: #34404b;
+    font-size: 24px;
+} 
+.horizontal {
+    border: 2px solid #ff5912;
+    width: 20px;
+    border-radius: 3px;
+}
+
+.foundation {
+    margin-top: 0.5%;
+}
+.enrol p {
+    padding-top: 42px;
+    font-size: 22px;
+    padding-left: 324px;
+    color: #4a4a4a;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.free-res {
+    margin-top: 2%;
+    display: -webkit-inline-flex;
+
+}
+.title {
+    padding-left: 324px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.title2 {
+
+}
+
+.detail {
+    padding-left: 145px;
+    padding-top: 15px;
+    font-size: 22px;
+    color: #4a4a4a;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.detail h3 {
+    padding-top: 5px;
+    font-size: 21px;
+    color: #ff5912;
+    letter-spacing: 2.7px;
+    
+}
+
+.mock {
+    padding-top: 20px;
+}
+
+/* .p-card {
+    height: 40px;
+    background-image: url('Assets/pcard.svg');
+} */
