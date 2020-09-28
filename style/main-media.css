@@ -1,0 +1,576 @@
+
+
+
+@media only screen and (max-width: 400px) {
+    .header {
+        height: 100px;
+    }
+    .header-left {
+        padding: 3%;
+        font-size: 15px;
+        padding-left: 19px;
+    }
+
+   .header-right {
+        padding-top: 20px;
+        padding-right: 5%;
+   }
+
+   .nav-right {
+        float: none;
+        margin-right: 0%;
+    }
+
+    .nav-menu {
+        display: -webkit-inline-flex;
+        padding-right: 0%;
+    }
+
+    .nav-menu li {
+        font-size: 17px;
+        padding: 7%;
+    }
+
+
+
+    .chef-logo {
+        padding: 1.3%;
+        margin-top: 5%;
+    }
+
+    .one-line {
+        padding-top: 8%;
+    }
+    .one-line, .dsa {
+        padding-left: 25%;
+    }
+
+    .home p {
+        border: 2px solid #ff5912;
+        width: 20px;
+        border-radius: 3px;
+        margin-top: 1px;
+        
+    }
+
+    .dots {
+        padding-left: 106%;
+        margin-top: -3%;
+    }
+    .dsa-banner{
+        height: 720px;
+        margin-top: 6.8%;
+    }
+
+    .dsa-info {
+        margin-left: 0%;
+    }
+    .dsa-banner h1 {
+        font-size: 41px;
+        padding-left: 6%;
+    }
+
+    .dsa-banner p {
+        font-size: 25.9px;
+        margin-top: 11%;
+        line-height: 48px;
+        padding-left: 8%;
+        letter-spacing: 0;
+        font-weight: 500;
+    }
+
+    .dsa-banner button {
+        margin-left: 7%;
+        margin-top: 15%;
+        width: 59%;
+    }
+
+    .chef-img {
+        float: right;
+        padding-right: 0%;
+        margin-top: -5.7%;
+    }
+
+    .registration {
+        height: 99px;   
+    } 
+    .reg-cont {
+        display: inherit;
+        margin-left: 0%;
+        padding-left: 10px;
+        
+    }
+
+    .com {
+        padding-left:0px;
+    }
+    
+    
+    .title {
+        font-size: 18px;
+        letter-spacing: 0.25px;
+        float: left;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+    .date {
+        font-size: 24px;
+        float: right;
+        padding-right: 25px;
+        margin-top: 11px;
+    }
+
+    .line {
+        font-size: 20px;
+        margin-top: 19px;
+        letter-spacing: 0.25px;
+        padding-left: 329px;
+    }
+
+    .dsa-certi {
+        height: 800px;
+    }
+    
+    .dsa-certi h1 {
+        font-size: 43px;
+        padding-top: 67px;
+    }
+    
+    .dsa-Description p {
+        padding-top: 37px;
+        font-size: 22px;
+        padding-left: 31px;
+        letter-spacing: 1.9px;
+    }
+    .enrol {
+        margin-top: 11%;
+    }
+    .enrol h1{
+        text-align: start;
+        font-size: 49px;
+        padding-left: 31px;
+    }
+    .enrol ul {
+        display: -webkit-inline-flex;
+        margin-top: 6.7%;
+        margin-left: 12px;
+    }
+    .enrol ul li {
+        padding-left: 21px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .horizontal {
+        width: 42px;
+    }
+    .foundation {
+        margin-top: -0.5%;
+    }
+    .enrol p {
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding-left: 28px;
+    }
+
+    .free-res {
+        margin-top: 10%;
+        display: inherit;
+    
+    }
+    .title {
+        padding-left: 32px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .title_  {
+        padding-left: 32px;
+        color: #2f2d2d;
+        letter-spacing: 2px;
+        font-size: 22px;
+    }
+    
+    .detail {
+        padding-left: 30px;
+        padding-top: 44px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    
+    .detail h4 {
+        padding-top: 28px;
+        font-size: 19px;
+    }
+
+    .detail h3 {
+        padding-top: 19px;
+        font-size: 21px;
+        color: #ff5912;
+        letter-spacing: 2.7px;
+    }
+    
+    .mock {
+        padding-top: 20px;
+    }
+    
+    .courses {
+        position: relative;
+        font-size: 24px;
+        margin-bottom: 102x;
+        padding-bottom: 64px;
+    }
+    .courses h4{
+        padding-left: 33px;
+        font-size: 35px;
+        padding-top: 78px;
+    }
+    .card-l {
+        display: none;
+    }
+    .card-m {
+        display: block;
+        padding-top: 24px;
+        padding-left: 26px;
+        height: 350px;
+        width: 333px;
+    }
+
+    .old-price,.Discounted-price,.avail-p{
+        margin-left: 12%;
+    }
+    .old-price {
+        margin-left: 11%;
+        margin-top: -67%;
+    }
+    
+    .courses > div {
+        margin-left: 13%;
+        line-height: 52px;
+        width: 297px;
+    }
+    .courses button {
+        margin-left: 7.1%;
+        margin-top: 99px;
+        width: 266px;
+    }
+    .testimonials {
+        background-color: #f2f6f8;
+        margin-top: 6%;
+        height: 893px;
+    }
+
+    /*  */
+    .testimonials > h2 {
+        padding-top: 58px;
+        font-size: 45px;
+        padding-left: 32px;
+        text-align: start;
+    }
+    
+    .lorem-t {
+        text-align: start;
+        margin-top: -45px;
+        letter-spacing: 1px;
+        padding: 42px;
+        line-height: 31px;
+        border-bottom: 1px solid #e6dede;
+    }
+
+
+
+    .left-cart , .right-card {
+        display: none;
+    }
+    
+    .cc-card {
+        margin-left: 27%;
+        padding-left: -9px;
+        background-color: white;
+        height: 531px;
+    }
+    
+    .whitecard{
+        display: none;
+    }
+    
+    
+    .amit_image{
+        margin-top: 314%;
+        margin-left: 63px;
+    }
+    
+    
+    .cc-photo {
+        width: 26.4%;
+        height: 531px;
+        margin-left: -108px;
+        margin-top: -91%;
+    }
+    
+    .sof {
+        margin-left: 25.5%;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+    
+    .content_ccdsa {
+        font-size: 18px;
+        letter-spacing: 0.6px;
+        /* position: relative; */
+        left: 27px;
+        /* margin-right: 17px; */
+        padding-left: -18px;
+        width: 81%;
+        /* padding-top: 8px; */
+        margin-top: -17%;
+    }
+    .quote {
+        left: -15%;
+        top: -5;
+        margin-top: -7px;
+
+    }
+    
+    
+    .left-cart {
+        float: left;
+        height: 324px;
+        position: absolute;
+        background-color: white;
+        filter: blur();
+        margin-top: 68px;
+    
+    }
+    
+    .left-cart > h5 {
+        font-size: 21px;
+        line-height: 33px;
+        letter-spacing: 1.2px;
+        color: #e6e6e6;
+        padding-top: 55px;
+        padding-right: 20px;
+    }
+    
+    
+    .left-cart p {
+        border-bottom: 1px solid rgb(136, 127, 127);
+        padding-top: 87px;
+    }
+    
+    .c-dots {
+        padding-left: 90px;
+        filter: blur(0.5px);
+    }
+    .d-img {
+        width: 56px;
+    }
+    
+    .name{
+        padding-left: 101px;
+        font-size: 21px;
+    }
+    
+    h4.hr {
+        width: 154px;
+        margin-left: 102px;
+        margin-top: 15.5%;
+    
+    }
+    
+    .cc-card i {
+        padding-left: 99px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    
+    .arrow-s {
+        position: absolute;
+        margin-top: 12%;
+        left: 0%;
+    }
+    
+    .arrow-e {
+        margin-top: -93%;
+        margin-right: 17%;
+        width: 0px;
+    }
+    .experience {
+        box-shadow: 1px 1px #b9b3b3;
+    }
+    .right-card {
+        float: right;
+        margin-top: -13%;
+    }
+    
+    h2.head-line {
+        text-align: center;
+        font-size: 44px;
+        padding-top: 95px;
+        font-weight: 300;
+    }
+    
+    p.lorem-t2 {
+        display: none;
+    }
+    
+    .certified-u {
+        margin-top: 0%;
+        margin-left: 0%;
+    
+    }
+    
+    .box {
+        background: linear-gradient(to right, #f7f7f7 55%, #ffffff 45%);
+        border: 1px solid #cbcbcb;
+    }
+    
+    .card {
+        margin-left: 17%;
+        margin-top: 10%;
+        margin-right: 17%;
+        width: 63%;
+    }
+    
+    
+    .user-img {
+        padding-top: 58px;
+        padding-left: 58px;
+        width: 125px;
+    }
+    
+    .card h3 {
+        padding-top: 47px;
+        padding-left: 55px;
+    }
+    
+    
+    .card p {
+        padding-top: -1px;
+        padding-left: 55px;
+        font-size: 17px;
+        line-height: 36px;
+    }
+    
+    
+    .card span {
+        padding-left: 55px;
+        font-size: 17px;
+    }
+    
+    
+    .under-line {
+        width: 170px;
+        margin-left: 55px;
+        margin-top: 19px;
+     
+    }
+    
+    .tag {
+        padding-top: 20px;
+        margin-left: 54px;
+        font-size: 19px;
+        font-weight: 100;
+    
+    }
+    
+    .dot {
+        padding-left: 17%;
+        padding-top: 2%;
+    }
+    .social-m h3 {
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+    .social-m {
+        padding-top: 8%;
+        text-align: center;
+        height: 100px;
+    }   
+    
+    
+    .social-m img {
+        padding: 10px;
+    }
+    
+    .footer {
+        background-color: #f2f2f2;
+        height: 770px;
+    
+    }
+    .footer h4 {
+        text-align: center;
+        position: initial;
+        margin-top: 0%;
+        margin-left: 0%;
+        padding-top: 32px;
+        font-weight: 600;
+        font-size: 21px;
+    }
+    
+    .footer > img {
+        text-align: center;
+        padding-left: 202px;
+        padding-top: 0px;
+        margin-left: 0%;
+    }
+    .menu-list {
+        display: initial;
+    }
+    
+    .menu-list li {
+        padding: 10px;
+        padding-left: 172px;
+    }
+    .line {
+        display: none;
+    }
+    
+    .menu-list2 {
+        display: inline;
+        margin-top: 10px;
+        margin-left: 0px;
+       
+    }
+    
+    .menu-list2 li {
+        padding: 10px;
+        text-align: start;
+        padding-left: 152px;
+    }
+    
+    .codechef-i {
+        position: inherit;
+        margin-top: 58px;
+        text-align: center;
+        
+    }
+    
+    .codechef-i > img {
+        width: 91px;
+        padding-right: 7px;
+    }
+    
+    .pay-cards {
+        float: right;
+    }
+    .pay {
+        margin-left: -26px;
+    }
+    
+    .pay img {
+        margin-top: 0px;
+        width: 138px;
+    }
+    
+    .p-card {
+        margin-left: -31px;
+    }
+    
+    .p-card img {
+        margin-top: -75px; 
+    
+    }
+  
+  }
