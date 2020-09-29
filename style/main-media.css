@@ -8,7 +8,7 @@
     .header-left {
         padding: 3%;
         font-size: 15px;
-        padding-left: 19px;
+        padding-left: 2.9%;
     }
 
    .header-right {
@@ -107,11 +107,12 @@
     
     
     .title {
-        font-size: 18px;
         letter-spacing: 0.25px;
         float: left;
-        padding-left: 2px;
-        padding-top: 2px;
+        padding-top: 3%;
+        padding-left: 16px;
+        font-size: 18px;
+        font-weight: 700
     }
     .date {
         font-size: 24px;
@@ -177,11 +178,7 @@
         display: inherit;
     
     }
-    .title {
-        padding-left: 32px;
-        font-size: 30px;
-        font-weight: 700;
-    }
+   
 
     .title_  {
         padding-left: 32px;
@@ -238,10 +235,10 @@
     .old-price,.Discounted-price,.avail-p{
         margin-left: 12%;
     }
-    .old-price {
+    /* .old-price {
         margin-left: 11%;
         margin-top: -67%;
-    }
+    } */
     
     .courses > div {
         margin-left: 13%;
@@ -304,7 +301,7 @@
         width: 26.4%;
         height: 531px;
         margin-left: -108px;
-        margin-top: -91%;
+        margin-top: -83%;
     }
     
     .sof {
@@ -317,7 +314,6 @@
     .content_ccdsa {
         font-size: 18px;
         letter-spacing: 0.6px;
-        /* position: relative; */
         left: 27px;
         /* margin-right: 17px; */
         padding-left: -18px;
@@ -568,9 +564,6 @@
         margin-left: -31px;
     }
     
-    .p-card img {
-        margin-top: -75px; 
-    
-    }
+ 
   
   }

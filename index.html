@@ -13,7 +13,7 @@
 <body>
     <div class="conainer">
         <!-- navbar - logos and sigin-up -->
-        <nav class="header"> 
+        <nav class="header">   
             <div class="header-left">
                 <div class="logo logo1">
                     <img src="Assets/Mail Ico.svg" alt="mail-logo">
@@ -68,19 +68,27 @@
                     Algorithms & get globally recognized.</p>
             </div>
             <button>Enrol Now</button>
-            <div class="chef-img">
-                <img src="Assets/Chef.svg" alt="">
-            </div>
+                <img class="chef-img" src="Assets/Chef.svg" alt="">
         </div>
         <div class="registration">
-            <div class="reg-cont">
+            <ul>
+                <li class="reg date-text">Exam Date</li>
+                <li class="reg date"> 31 Mar 2019</li>
+                <li class="divider"></li>
+                <li class="reg date-text">Last Date of Registration</li>
+                <li class="reg date">18 Mar 2019</li>
+            </ul>
+            <!-- <div class="reg-cont">
                 <div class="com title">
-                    Exam Date
+                    
                 </div>
                 <div class="com date">
                     31 Mar 2019
                 </div>
                 <div class="com  line title">
+                    Last Date of Registration
+                </div>
+                <div class="com title">
                     Last Date of Registration
                 </div>
                 <div class="com2">
@@ -89,7 +97,7 @@
                 <div class="com date">
                     18 Mar 2019
                 </div>
-            </div>
+            </div> -->
         </div>
   
         <div class="dsa-certi">
@@ -107,44 +115,44 @@
         <div class="enrol">
             <h1>Levels</h1>
             <ul>
-                <li class="foundation">Foundation
+                <li class="foundation m-list" >Foundation
                     <hr class="horizontal">
                 </li>
-                <li>Advanced</li>
-                <li>Expert</li>
+                <li class="m-list">Advanced</li>
+                <li class="m-list">Expert</li>
             </ul>
-            <p>This will certify that the person is fluent with the basics of algorithms and data structures <br>
-                and can implement them in code.</p>
-            <div class="free-res">
-                <div class="title_">
-                    Free Resources to Prepare
-                </div>
-                <div class="detail">
-                    <h4>
-                        Get the entire syllabus, which is accompanied with <br>
-                        resources on each topic with practice problems. <br>
-                    </h4>
-                    <h3>Syllabus & Resources</h3>
-                    <h4 class="mock">Once ready, give mock to test</h4>
-                    <h3>Mock Test</h3>
-                </div>
-            </div>
+            <div class="levels">
+                <p>This will certify that the person is fluent with the basics of algorithms and data structures <br>
+                    and can implement them in code.</p>
+                <section>
+                    <div class="titles">
+                        <div class="title1"><strong>Free Resources to Prepare</strong></div>
+                        <div class="title2">Course Price</div>
+                    </div>
+                    <div class="des-img">
+                        <h3>
+                            Get the entire syllabus, which is accompanied with <br>
+                            resources on each topic with practice problems. <br>
+                        </h3>
+                        <h3 class="red-title">Syllabus & Resources</h3>
+                        <h3 class="mock">Once ready, give mock to test</h3>
+                        <h3 class="red-title">Mock Test</h3>
+                        <!-- <div class="price-tag"> -->
+                            <img class="card-l" src="Assets/Path 1381.png">
+                            <img class="card-m" src="Assets/Path -1.png">
+                            <p class="rs"> 
+                               <del>Rs. 3,500/-</del>  <br>
+                                <b>Rs.2,500/-</b>  Discount  <br>
+                                Avail between 25 Sept - 21 Oct
+                                </p>
+                           
+                                                
+                        <!-- </div> -->
+                            
 
-            <div class="courses">
-                <h4>Course Price</h4>
-                <img class="card-l" src="Assets/Path 1381.png">
-                <img class="card-m" src="Assets/Path -1.png">
-                <div class="old-price">
-                    <strike>RS. 3,500/</strike>
-                </div>
-                <div class="Discounted-price">
-                    <b>Rs.2,500/- </b>
-                    Discounted price
-                </div>
-                <div class="avail-p">Avail between 25 Sept - 21 Oct</div>
-                <button>Enrol Now</button>
-            </div>
-        </div>
+                    </div>
+                </section>
+
         <div class="testimonials">
             <h2>Testimonials</h2>
             <div class="lorem-t">
@@ -168,22 +176,21 @@
                     <img class="s-g" src="Assets/Arrow-Previous.svg" alt="">
                 </div>
                 <div class="cc-card">
-                    <img class = "whitecard" src="Assets/cc-card.svg" alt="">
-                    <h3 class = "content_ccdsa">
-                        <img class="quote" src=" Assets/“.svg" alt="">
-                        CCDSAP gave my talent and hard work the
-                        opportunity to interview with the top tech
-                        companies in India. CCDSAP gave my talent and
-                        hard work the opportunity to with the top tech
-                        companies in India.</h3>
-                    <h2 class="name">Amit Jha</h2>
-                    <div class="sof">
-                        <p>Software Engineer, Sharechat</p>
-                    </div>
-                    <i>Foundation Certified</i>
-                    <h4 class="hr"></h4>
                     <div class="cc-photo">
                         <img  class = "amit_image"src="Assets/Rectangle 1990.svg" alt="">
+                    </div>
+                    <div class="right-cont">
+                        <h3 class = "padding content_ccdsa">
+                            <img class="quote" src=" Assets/“.svg" alt="">
+                            CCDSAP gave my talent and hard work the
+                            opportunity to interview with the top tech
+                            companies in India. CCDSAP gave my talent and
+                            hard work the opportunity to with the top tech
+                            companies in India.</h3>
+                        <h2 class="padding name">Amit Jha</h2>
+                        <p class="padding sof" >Software Engineer, Sharechat</p>
+                        <i class="padding" >Foundation Certified</i>
+                        <h4 class="padding hr"></h4>
                     </div>
                 </div>
                 <div class="arrow-e">
@@ -294,7 +301,7 @@
              </div>
         </div>
 
-        <div class="social-m">
+        <!-- <div class="social-m">
             <h3 style="text-align: center;">Follow us</h3>
             <div class="i-con">
                 <img src="Assets/facebook.svg" alt="">
@@ -327,7 +334,7 @@
                 <li class="pay">Payment Methods</li>
                 <li class="p-card"><img src="Assets/Payment Images.svg" alt="cards-img"></li>
             </ul>
-        </footer>  
+        </footer>   -->
     </div>
 </body>
 

@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Ubuntu',sans-serif;
 }
 
@@ -40,6 +40,7 @@
 
 .navigetion {
     padding: 1%;
+    margin-bottom: 76px;
 }
 .dsa-logo {
     float: left;
@@ -62,8 +63,8 @@
 
 .nav-menu li {
     list-style: none;
-    font-size: 19px;
     padding: 9%;
+    font-size: 19px;
 }
 
 
@@ -102,20 +103,21 @@
 }
 
 .dsa-info {
-    padding-top:    9%;
+    padding-top: 9%;
     margin-left: 19%;
+    margin-right: 10%;
 }
 
 .dsa-banner h1 {
-    font-size: 52px;
     color: #4a4a4a;
     line-height: 53px;
-    letter-spacing: .25px;
+    letter-spacing: 1.6px;
+    font-size: 2.64vw;
 }
 
 
 .dsa-banner p {
-    font-size: 28.9px;
+    font-size: 1.5vw;
     margin-top: 16px;
     color: #2a2b2c;
     letter-spacing: 0.9px;
@@ -143,9 +145,8 @@
 }
 
 .registration {
-    width: 100%;
-    background-color: rgb(59, 56, 56);
-    height: 65px;   
+
+    background-color: rgb(59, 56, 56);  
     letter-spacing: 0.25px;
 }
 .reg-cont {
@@ -160,18 +161,81 @@
 }
 
 
-.title {
-    font-size: 20px;
-    margin-top: 2%;
-    letter-spacing: 0.25px;
-    padding-left: 69px;
-    font-weight: 700;
+
+.title2 {
+    margin-top: 118%;
+}
+section , .mock {
+    padding-top: 2.5rem;
+}
+.card-l {
+    position: absolute;
+    width: 35%;
+    right: 25%;
+    margin-top: 39px;
+}
+section {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.des-img >h3 , .levels > p {
+    font-size: 1.3vw;
+    line-height: 2.5vw;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.titles {
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+}
+.levels > p {
+    padding-top: 1.5rem;
+    padding-left: 18%;
+
+    
+}
+.des-img {
+    min-width: 60%;
+    margin-left: 1rem;
+}
+
+.red-title {
+    color: #ff4107;
+}
+.rs {
+    margin-top: 57px;
+    position: absolute;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    margin-left: 3%;
+    letter-spacing: .1vw;
+
 }
 
 
+.registration ul {
+    display: -webkit-inline-flex;
+    list-style: none;
+    margin-left: 18%;
+    color: white;
+}
+.reg {
+    padding: 15px;
+}
+.date-text {
+    font-size: 24px;
+}
+.divider {
+    border-left: 1px solid white;
+    margin: 13px 51px 13px 51px;
+}
 .date {
-    font-size: 30px;
-    margin-top: 1.5%;
+    font-size: 27px;
+    /* margin-top: 1.5%; */
     letter-spacing: 0.25px;
 }
 
@@ -212,28 +276,22 @@
 }
 .enrol h1{
     text-align: center;
-    font-size: 49px;
+    font-size: 2.5vw;
     letter-spacing: 1.5px;
     color: #34404b;
 }
 
-.enrol ul {
+.enrol > ul {
     display: -webkit-inline-flex;
-    margin-top: 1.7%;
-    margin-left: 28%;
-    color: #ff5912;
+    justify-content: space-between;
     list-style: none;
-
-}
-.enrol ul li { 
-    padding-left: 35%;
-    font-size: 27px;
-    font-weight: 600;
-}
-.enrol li:nth-of-type(1) {
-    color: #34404b;
-    font-size: 24px;
+    padding-left: 33%;
+    padding-top: 30px;
+    font-size: 1.4vw;
 } 
+.m-list {
+    margin-right: 8rem;
+}
 .horizontal {
     border: 2px solid #ff5912;
     width: 20px;
@@ -243,7 +301,7 @@
 .foundation {
     margin-top: 0.5%;
 }
-.enrol p {
+.enrol > p {
     padding-top: 4%;
     font-size: 22px;
     padding-left: 18%;
@@ -256,14 +314,9 @@
 .free-res {
     margin-top: 2%;
     display: -webkit-inline-flex;
-
 }
 
-.title_  {
-    padding-left: 324px;
-    font-size: 25px;
-    padding-top: 21px;
-}
+
 
 .detail {
     padding-left: 105px;
@@ -300,19 +353,7 @@
     padding-top: 109px;
 }
 
-.card-l {
-    margin-left: 12%;
-    margin-top: 2.5%;
-    height: 167px;
-}
 
-.old-price,.Discounted-price,.avail-p{
-    margin-left: 43%;
-}
-
-.old-price {
-    margin-top: -9%;
-}
 
 .courses > div {
     line-height: 45px;
@@ -359,7 +400,12 @@
 }
 
 .cc-card {
-    margin-left: 26%;
+    border: 1px solid #dad7d7;
+    height: 416px;
+    width: 48%;
+    margin-left: auto;
+    background-color: white;
+    margin-right: auto;
 }
 
 .whitecard{
@@ -370,41 +416,37 @@
 
 .amit_image{
     margin-top: 108%;
-    margin-left: 78px;
+    margin-left: 47%;
 
 }
 
 
 .cc-photo {
     width: 9.4%;
-    height: 434px;
-    position: absolute;
-    margin-top: -16%;
+    height: 416px;
     background-color: #ececec;
+    position: absolute;
 }
 
 .sof {
-    margin-left: 12.5%;
-    font-size: 23px;
-    padding-top: 8px;
+    font-size: 24px;
+    padding-top: 1%;
+}
+.right-cont {
     position: absolute;
+}
+.content_ccdsa {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    width: 48%;
+}
+.padding {
+    margin-left: 16.5%;
 }
 
-.content_ccdsa {
-    font-size: 22px;
-    position: relative;
-    left: 17%;
-    margin-top: -58%;
-    line-height: 33px;
-    letter-spacing: 2px;
-    margin-right: -31px;
-    width: 47%;
-    font-weight: 100;
-}
-.quote {
-    position: absolute;
-    left: -6%;
-    top: -5;
+.name {
+    padding-top: 22px;
 }
 
 
@@ -442,25 +484,19 @@
     width: 56px;
 }
 
-.name{
-    padding-left: 227px;
-    padding-top: 42px;
-}
+
 
 h4.hr {
     border-bottom: 1px solid gray;
-    width: 611px;
-    position: absolute;
-    margin-left: 225px;
-    margin-top: 2.5%;
+    width: 44%;
+    margin-top: 1.5%;
 
 }
 
 .cc-card i {
-    padding-left: 223px;
     position: absolute;
-    margin-top: 69px;
-    font-size: 23px;
+    margin-top: 3%;
+    font-size: 1vw;
     letter-spacing: 1px;
 }
 
@@ -472,13 +508,13 @@ h4.hr {
 
 .arrow-e {
     float: right;
-    margin-top: -4%;
-    margin-right: 17%;
+    margin-top: -10%;
+    margin-right: 20%;
 }
 
 .right-card {
     float: right;
-    margin-top: -13%;
+    margin-top: -20%;
 }
 
 h2.head-line {
@@ -497,7 +533,7 @@ p.lorem-t2 {
 
 .certified-u {
     margin-top: 5%;
-    margin-left: 294px;
+    margin-left: 16%;
 
 }
 
@@ -582,7 +618,7 @@ p.lorem-t2 {
 }
 
 .i-con {
-    margin-top: 9px;
+    margin-top: 1%;
 }
 
 .footer {
@@ -598,7 +634,7 @@ p.lorem-t2 {
 
 .footer > img {
     margin-left: 8%;
-    padding-top: 85px;
+    padding-top: 4.8%;
     position: absolute;
 }
 .menu-list {
@@ -619,7 +655,7 @@ p.lorem-t2 {
 .menu-list2 {
     display: -webkit-inline-flex;
     list-style: none;
-    margin-left: 259px;
+    margin-left: 14.8%;
     margin-top: 80px;
     position: absolute;
     left: 0%;
@@ -635,8 +671,8 @@ p.lorem-t2 {
 
 .codechef-i {
     position: absolute;
-    left: 107px;
-    margin-top: 34px;
+    left: 7%;
+    margin-top: 2%;
     
 }
 
@@ -655,7 +691,3 @@ p.lorem-t2 {
     margin-left: 75px;
 }
 
-.p-card img {
-    margin-top: -75px; 
-
-}
