@@ -1,9 +1,6 @@
-
-
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
     .header {
-        height: 100px;
+        padding: 1%;
     }
     .header-left {
         padding: 3%;
