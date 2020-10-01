@@ -4,13 +4,24 @@
     }
     .header-left {
         font-size: 3.5vw;
-        padding: 5% 7% 0% 7%;
+        padding: 3% 7% 0% 7%;
     }
-
+    .logo span {
+        padding-left: 4px;
+    }
    .header-right {
-        padding-top: 20px;
-        padding-right: 5%;
+    padding-top: 18px;
+    padding-right: 7%;
    }
+
+   .header-right button {
+    font-size: 15px;
+    border: 1px solid rgb(252, 92, 34);
+    background-color: white;
+    border-radius: 3px;
+    height: 34px;
+    width: 93px;
+    }
 
    .nav-right {
         float: none;
