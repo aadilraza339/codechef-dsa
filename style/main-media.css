@@ -1,6 +1,7 @@
 @media only screen and (max-width: 414px) {
+
     .header {
-        padding: 1%;
+        height: 80px;
     }
     .header-left {
         font-size: 3.5vw;
@@ -10,8 +11,14 @@
         padding-left: 4px;
     }
    .header-right {
-    padding-top: 18px;
-    padding-right: 7%;
+        padding-top: 18px;
+        padding-right: 10%;
+   }
+   .logo2 {
+       padding-left: 25px;
+   }
+   .navigetion {
+       padding: 0%;
    }
 
    .header-right button {
@@ -29,19 +36,19 @@
     }
 
     .nav-menu {
-        display: -webkit-inline-flex;
         padding-right: 0%;
+        padding-left: 6%;
     }
 
     .nav-menu li {
-        font-size: 17px;
-        padding: 7%;
+        padding: 5.8%;
+    font-size: 4vw;
     }
 
 
 
     .chef-logo {
-        padding: 1.3%;
+        padding: 0%;
         margin-top: 5%;
     }
 
@@ -49,20 +56,11 @@
         padding-top: 8%;
     }
     .one-line, .dsa {
-        padding-left: 25%;
-    }
-
-    .home p {
-        border: 2px solid #ff5912;
-        width: 20px;
-        border-radius: 3px;
-        margin-top: 1px;
-        
+        padding-left: 17%;
     }
 
     .dots {
-        padding-left: 106%;
-        margin-top: -3%;
+        padding-left: 96%;
     }
     .dsa-banner{
         height: 720px;
@@ -70,11 +68,12 @@
     }
 
     .dsa-info {
+        padding-top: 49px;
         margin-left: 0%;
     }
     .dsa-banner h1 {
-        font-size: 41px;
-        padding-left: 6%;
+        font-size: 12vw;
+    padding-left: 7%;
     }
 
     .dsa-banner p {
