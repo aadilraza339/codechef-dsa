@@ -83,9 +83,9 @@
 
 .nav-menu {
     display: -webkit-inline-flex;
-    padding-right: 17%;
     float: right;
     margin-top: 30px;
+    margin-right: 299px;
 }
 
 .nav-menu li {
@@ -548,8 +548,7 @@ section {
     height: 356px;
     position: absolute;
     background-color: white;
-    filter: blur(0.5);
-    
+    opacity: .2;
     margin-top: 2%;
     width: 12.69%;
 }
@@ -560,7 +559,7 @@ section {
     letter-spacing: 1.5px;
     padding-top: 52px;
     padding-right: 55px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
