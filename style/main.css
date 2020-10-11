@@ -80,14 +80,12 @@
     font-size: 16px;
 }
 
-.nav-right {
-    float: right;
-    margin-right: 17%;
-}
+
 .nav-menu {
     display: -webkit-inline-flex;
-    padding-right: 5.9%;
-    padding-top: 11%;
+    padding-right: 17%;
+    float: right;
+    margin-top: 30px;
 }
 
 .nav-menu li {
@@ -123,7 +121,7 @@
     border: 2px solid #ff5912;
     width: 22px;
     border-radius: 3px;
-    margin-top: 7px;
+    margin-top: 5px;
     
 }
 .home2 p {
@@ -144,8 +142,8 @@
 
 
 .dsa-banner {
-    margin-top: 4.6%;
     height: 578px;
+    margin-top: 82px;
 }
 
 .dsa-info {
@@ -213,7 +211,7 @@
 
 
 .title2 {
-    margin-top: 98%;
+    margin-top: 308px;
 }
 
 .card-l {
@@ -252,12 +250,12 @@ section {
     padding-top: 40px;
 }
 .titles {
-    padding-top: 2.37rem;
+    padding-top: 36px;
     font-size: 1.2vw;
-    letter-spacing: 2px;
+    letter-spacing: 1.9px;
 }
 .levels > p {
-    line-height: 41px;
+    line-height: 42px;
     padding-top: 51px;
     padding-left: 19%;
 }
@@ -335,7 +333,7 @@ section {
     color: #4a4a4a;
     letter-spacing: 1.24px;
     line-height: 1.93;
-    padding-right: 10%;
+    padding-right: 17%;
     font-weight: 400;
 }
 .next-p {
@@ -356,25 +354,29 @@ section {
 
 .enrol > ul {
     display: -webkit-inline-flex;
-    justify-content: space-between;
-    list-style: none;
-    padding-left: 32.5%;
     padding-top: 29px;
-    font-size: 1.3vw;
+    margin-left: 32.5%;
 } 
 .foundation {
-    letter-spacing: .4px;
+    letter-spacing: .9px;
     margin-top: 0.5%;
     color: #34404B;
     font-weight: 600;
+    font-size: 1.25vw;
 }
-.m-list {
-    letter-spacing: .6px;
-    margin-right: -2px;
+.Advanced , .Expert{
+    letter-spacing: 1.3px;
     color: #FF5912;
-    padding-left: 131px;
-    font-size: 28px;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.Expert {
+    padding-left: 35%;
+}
+.Advanced {
+   
+  
+    padding-left: 38%;
 }
 .horizontal {
     border: 2px solid #ff5912;
@@ -492,7 +494,7 @@ section {
 
 
 .amit_image{
-    margin-top: 99%;
+    margin-top: 166px;
     margin-left: 39%;
     width: 74%;
 }
@@ -506,10 +508,10 @@ section {
 }
 
 .sof {
-    padding-top: .3%;
+    padding-top: 7px;
     font-size: 1.3vw;
     font-weight: 200;
-    letter-spacing: 1px;
+    letter-spacing: .9px;
 }
 .right-cont {
     position: absolute;
@@ -517,8 +519,8 @@ section {
 }
 .content_ccdsa img {
     position: absolute;
-    margin-left: -47px;
-    margin-top: -1%;
+    margin-left: -3.7%;
+    margin-top: -11px;
     width: 2.4%;
 }
 .content_ccdsa {
@@ -530,12 +532,14 @@ section {
 }
 .padding {
     color: #2F2F2F;
-    margin-left: 226px;
+    margin-left: 17%;
 }
 
 .name {
     padding-top: 35px;
     padding-left: 2px;
+    font-size: 1.24vw;
+    letter-spacing: 1.5px;
 }
 
 
@@ -544,47 +548,43 @@ section {
     height: 356px;
     position: absolute;
     background-color: white;
-    filter: blur();
+    filter: blur(0.5);
+    
     margin-top: 2%;
     width: 12.69%;
 }
 
 .left-cart > h5 {
-    font-size: 21px;
-    line-height: 36px;
+    font-size: 1.2vw;
+    line-height: 2.29rem;
     letter-spacing: 1.5px;
-    /* color: #e6e6e6; */
     padding-top: 52px;
-    padding-right: 52px;
+    padding-right: 55px;
     font-weight: 300;
 }
 
 
 .left-cart p {
     border-bottom: 1px solid rgb(136, 127, 127);
-    padding-top: 87px;
+    padding-top: 58%;
+    width: 10.2vw;
 }
 
-.c-dots {
-    padding-left: 130px;
-    filter: blur(0.5px);
-}
 .d-img {
-    width: 54px;
+    width: 31.1%;
+    height: 19px;
+    margin-left: 81%;
 }
-
-
 
 h4.hr {
     border-bottom: 1px solid gray;
     width: 45%;
     margin-top: 17px;
-    margin-right: 10px;
 }
 
 .cc-card i {
     position: absolute;
-    margin-top: 2.8%;
+    margin-top: 35px;
     font-size: 1.2vw;
     letter-spacing: 2px;
     font-weight: 300;
