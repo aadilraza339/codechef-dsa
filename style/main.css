@@ -723,15 +723,19 @@ p.lorem-t2 {
     padding-left: 1.2%;
     padding-top: 11px;
 }
+
 .fb {
     width: 14px;
 }
+
 .tw {
-    width: 32px;
+   width: 32px;
 }
+
 .gg {
     width: 31px;
 }
+
 .in {
     width: 26px;
     margin-left: 10px;
@@ -743,6 +747,7 @@ p.lorem-t2 {
     padding: 11px;
     height: 188px;
 }
+
 .footer h4 {
     margin-left: 7%;
     margin-top: 63px;
@@ -754,6 +759,7 @@ p.lorem-t2 {
     padding-top: 4.8%;
     position: absolute;
 }
+
 .menu-list {
     margin-top: 12px;
     display: -webkit-inline-flex;
@@ -766,14 +772,12 @@ p.lorem-t2 {
     position: absolute;
 }    
 
-
 .menu-list li {
     font-size: 1vw;
     padding: 36px 26px 26px;
     padding-left: 27px;
     letter-spacing: .5px;
 }
-
 
 .menu-list2 {
     display: -webkit-inline-flex;
@@ -792,8 +796,8 @@ p.lorem-t2 {
     position: absolute;
     left: 7%;
     margin-top: 2%;
-    
 }
+
 .pay {
     font-size: 0.9vw;
     position: absolute;
@@ -801,10 +805,10 @@ p.lorem-t2 {
     right: 365px;
     letter-spacing: 1px;
 }
+
 .community {
     padding-right: 38px;
 }
-
 
 .codechef-i > img {
     width: 88px; 
@@ -818,7 +822,6 @@ p.lorem-t2 {
 .practise {
     margin-left: 13px;
 }
-
 
 .codechef-img {
     height: 13px;
