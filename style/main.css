@@ -41,6 +41,11 @@
     padding-left: 7px;
 }
 
+.login {
+    padding-right: 30px;
+    font-size: 16px;
+}
+
 .header-right button {
     padding-left: 10px;
     font-size: 17px;
@@ -75,10 +80,7 @@
     padding-left: 6.35%;
 }
 
-.header-right .login {
-    padding-right: 30px;
-    font-size: 16px;
-}
+
 
 
 .nav-menu {
@@ -824,4 +826,8 @@ p.lorem-t2 {
 
 .codechef-img {
     height: 13px;
+}
+
+.mobile-price {
+    display: none;
 }

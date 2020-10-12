@@ -1,79 +1,125 @@
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 425px) {
 
     .header {
-        height: 80px;
+        height: 70px;
     }
     .header-left {
-        font-size: 3.5vw;
-        padding: 3% 7% 0% 7%;
+        font-size: 3vw;
+        padding-left: 10%;
+        font-weight: 500;
     }
+    .mail {
+        width: 18px;
+    }
+    .phone {
+        width: 12px;
+    }
+    
+    .logo1 {
+        padding-top: 14px;
+        letter-spacing: .6px;
+    }
+    .logo2 {
+        padding-left: 12px;
+        letter-spacing: .7px;
+        padding-top: 12px;
+    }
+
+    div.logo1 span {
+        padding-left: 7px;
+    }
+    div.logo2 span {
+        padding-left: 8px;
+    }
+
     .logo span {
-        padding-left: 4px;
+        padding-left: 0px;
     }
    .header-right {
-        padding-top: 18px;
-        padding-right: 10%;
-   }
-   .logo2 {
-       padding-left: 25px;
-   }
-   .navigetion {
-       padding: 0%;
+    padding-right: 11%;
+    padding-top: 10px;
    }
 
+   .login {
+    padding-right: 21px;
+    font-size: 12px;
+    padding-top: 8px;
+    }
    .header-right button {
-    font-size: 15px;
-    border: 1px solid rgb(252, 92, 34);
-    background-color: white;
-    border-radius: 3px;
-    height: 34px;
-    width: 93px;
+    font-size: 13px;
+    height: 26px;
+    width: 82px;
+    margin-top: 0px;
+    padding-left: 0px;
+    border-radius: 1px;
     }
-
-   .nav-right {
-        float: none;
-        margin-right: 0%;
+    /*  */
+    .navigetion {
+        padding: 1%;
+        margin-bottom: 0px;
     }
-
-    .nav-menu {
-        padding-right: 0%;
-        padding-left: 6%;
+    
+    .dsa-logo {
+        float: left;
+        padding-left: 7%;
     }
-
-    .nav-menu li {
-        padding: 5.8%;
-    font-size: 4vw;
-    }
-
-
 
     .chef-logo {
         padding: 0%;
-        margin-top: 5%;
+        margin-top: 16px;
+        width: 7%;
+        padding-right: 4px;
+    }
+    .one-line {
+        padding-top: 14px;
+    }
+    .leave {
+        height: 13px;
+    }
+    .code-m {
+        padding-right: -1px;
+        width: 17%;
+    }
+    .code-cer {
+        height: 10px;
+        padding-left: 1px;
     }
 
-    .one-line {
-        padding-top: 8%;
+    .dsa img {
+        width: 90%;
     }
     .one-line, .dsa {
-        padding-left: 17%;
+        padding-left: 15%;
+    }
+    .dots {
+        padding-left: 75%;
+    } 
+   .nav-menu {
+        margin-right: 0px;
+        padding-left: 4%;
+        margin-top: 24px;
+        float: none;
     }
 
-    .dots {
-        padding-left: 96%;
+    .nav-menu li {
+        padding: 6.2%;
+        font-size: 4vw;
     }
+    /*  */
+ 
     .dsa-banner{
-        height: 826px;
-        margin-top: 0%;
+        height: 755px;
+        margin-top: 0px;
+    }
+    .dsa-banner h1 {
+        font-size: 8vw;
+        padding-left: 9%;
+        letter-spacing: 1px;
     }
 
     .dsa-info {
-        padding-top: 49px;
+        padding-top: 34px;
         margin-left: 0%;
-    }
-    .dsa-banner h1 {
-        font-size: 12vw;
-    padding-left: 7%;
     }
 
     .dsa-banner p {
@@ -82,110 +128,152 @@
         line-height: 48px;
         padding-left: 8%;
         letter-spacing: 0;
-        font-weight: 500;
     }
 
     .dsa-banner button {
         margin-left: 7%;
-        margin-top: 15%;
-        width: 59%;
+        margin-top: 44px;
+        width: 220px;
     }
 
     .chef-img {
-        float: right;
-        padding-right: 0%;
-        margin-top: -5.7%;
+        padding-right: 3%;
+        margin-top: -16px;
+        width: 191px;
     }
-
+    /*  reg */
     .registration {
-        height: 99px;   
+        height: 118px;   
     } 
-    .reg-cont {
-        display: inherit;
+    .registration ul {
+        display: block;
+        padding-top: 17px;
         margin-left: 0%;
-        padding-left: 10px;
-        
     }
-
-    .com {
-        padding-left:0px;
+    .divider {
+        display: none;
     }
-    
-    
-    .title {
-        letter-spacing: 0.25px;
-        float: left;
-        padding-top: 3%;
-        padding-left: 16px;
-        font-size: 18px;
-        font-weight: 700
+    .date-text {
+        font-size: 15px;
+        padding-top: 186px;
+    }
+    .reg {
+        padding: 12px 17px;
     }
     .date {
-        font-size: 24px;
+        font-size: 21px;
         float: right;
-        padding-right: 25px;
-        margin-top: 11px;
+        padding-right: 26px;
+        margin-top: -47px;
     }
 
-    .line {
-        font-size: 20px;
-        margin-top: 19px;
-        letter-spacing: 0.25px;
-        padding-left: 329px;
-    }
-
+    /* dsa-certi */
     .dsa-certi {
-        height: 800px;
+        height: 639px;
     }
     
     .dsa-certi h1 {
-        font-size: 43px;
-        padding-top: 67px;
+        font-size: 31px;
+        padding-top: 54px;
+        padding-left: 7%;
+        text-align: start;
     }
     
     .dsa-Description p {
-        padding-top: 37px;
-        font-size: 22px;
+        padding-top: 24px;
+        font-size: 17px;
         padding-left: 31px;
-        letter-spacing: 1.9px;
+        letter-spacing: 1.7px;
+    }
+    .next-p {
+        padding-top: 33px !important;
     }
     .enrol {
         margin-top: 11%;
     }
     .enrol h1{
         text-align: start;
-        font-size: 49px;
+        font-size: 40px;
         padding-left: 31px;
     }
     .enrol ul {
-        display: -webkit-inline-flex;
-        margin-top: 6.7%;
-        margin-left: 12px;
+        margin-left: 0%;
+        padding-top: 27px;
     }
     .enrol ul li {
-        padding-left: 21px;
-        font-size: 22px;
-        font-weight: 600;
+        padding-left: 16%;
+        font-size: 16px;
+        font-weight: 400;
     }
     .horizontal {
-        width: 42px;
+        width: 29px;
     }
     .foundation {
         margin-top: -0.5%;
     }
-    .enrol p {
-        letter-spacing: 1px;
-        font-weight: 700;
-        padding-left: 28px;
+    .levels > p {
+        line-height: 42px;
+        padding-top: 8px;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+    .des-img >h3, .levels > p {
+        font-size: 16px;
+        letter-spacing: .89px;
+        color: #2F2F2F;
+        font-weight: 350;
+    }
+    section {
+        display: block;
+        padding-left: 9%;
+        padding-right: 0%;
+    }
+    .titles {
+        padding-top: 36px;
+        font-size: 18px;
+        letter-spacing: 1.9px;
+    }
+    .title2 {
+        display: none;
+    }
+    .mobile-price {
+        display: block;
+        margin-top: 51px;
+        font-size: 23px;
+    }
+    .card-m {
+        display: block;
+        padding-top: 24px;
+        padding-left: 1%;
+        width: 85%;
+    }
+    .rs {
+        margin-top: -223px;
+        position: absolute;
+        font-size: 5.9vw;
+        line-height: 11vw;
+        margin-left: 17.5%;
+        letter-spacing: .1vw;
+        font-weight: 100;
+        margin-right: 27%;
+    }
+    .banner-button, .levels-button {
+        width: 58.1%;
+        height: 55px;
+        font-size: 22px;
+        border: none;
+        background-color: #ff4107;
+        color: white;
+    }
+    .levels-button {
+        margin-left: 11.2%;
+        margin-top: -1px;
     }
 
-    .free-res {
-        margin-top: 10%;
-        display: inherit;
+
     
-    }
    
-
+/* 
     .title_  {
         padding-left: 32px;
         color: #2f2d2d;
@@ -203,9 +291,9 @@
     .detail h4 {
         padding-top: 28px;
         font-size: 19px;
-    }
+    } */
 
-    .detail h3 {
+    /* .detail h3 {
         padding-top: 19px;
         font-size: 21px;
         color: #ff5912;
@@ -226,21 +314,15 @@
         padding-left: 33px;
         font-size: 35px;
         padding-top: 78px;
-    }
+    } */
     .card-l {
         display: none;
     }
-    .card-m {
-        display: block;
-        padding-top: 24px;
-        padding-left: 26px;
-        height: 350px;
-        width: 333px;
-    }
+   
 
-    .old-price,.Discounted-price,.avail-p{
+    /* .old-price,.Discounted-price,.avail-p{
         margin-left: 12%;
-    }
+    } */
     /* .old-price {
         margin-left: 11%;
         margin-top: -67%;
@@ -257,9 +339,8 @@
         width: 266px;
     }
     .testimonials {
-        background-color: #f2f6f8;
         margin-top: 6%;
-        height: 893px;
+        height: 304px;
     }
 
     /*  */
@@ -272,11 +353,15 @@
     
     .lorem-t {
         text-align: start;
-        margin-top: -45px;
+        margin-top: -21px;
         letter-spacing: 1px;
         padding: 42px;
         line-height: 31px;
-        border-bottom: 1px solid #e6dede;
+        margin-bottom: 0%;
+    }
+    .right-cont {
+        position: absolute;
+        margin-top: 18px;
     }
 
 
@@ -286,79 +371,56 @@
     }
     
     .cc-card {
-        margin-left: 27%;
-        padding-left: -9px;
         background-color: white;
         height: 531px;
+        margin-left: 0%;
+        margin-right: 0px;
+        width: 100%;
     }
     
     .whitecard{
         display: none;
     }
     
-    
-    .amit_image{
-        margin-top: 314%;
-        margin-left: 63px;
+    .amit_image {
+        margin-top: 337px;
+        margin-left: 29%;
+        width: 117%;
     }
-    
     
     .cc-photo {
         width: 26.4%;
         height: 531px;
-        margin-left: -108px;
-        margin-top: -83%;
     }
     
     .sof {
-        margin-left: 25.5%;
         font-size: 17px;
-        line-height: 23px;
+        line-height: 24px;
+        padding-left: 18%;
         letter-spacing: 1px;
     }
     
     .content_ccdsa {
-        font-size: 18px;
-        letter-spacing: 0.6px;
-        left: 27px;
-        /* margin-right: 17px; */
+        font-size: 14px;
+        letter-spacing: 1px;
         padding-left: -18px;
-        width: 81%;
-        /* padding-top: 8px; */
-        margin-top: -17%;
+        width: 55%;
+        padding-top: 8px;
+    }
+    .padding {
+        color: #2F2F2F;
+        margin-left: 30%;
     }
     .quote {
-        left: -15%;
-        top: -5;
-        margin-top: -7px;
-
-    }
-    
-    
-    .left-cart {
-        float: left;
-        height: 324px;
         position: absolute;
-        background-color: white;
-        filter: blur();
-        margin-top: 68px;
-    
-    }
-    
-    .left-cart > h5 {
-        font-size: 21px;
-        line-height: 33px;
-        letter-spacing: 1.2px;
-        color: #e6e6e6;
-        padding-top: 55px;
-        padding-right: 20px;
+        margin-left: -13.7%;
+        margin-top: -11px;
+        width: 10.4%;
     }
     
     
-    .left-cart p {
-        border-bottom: 1px solid rgb(136, 127, 127);
-        padding-top: 87px;
-    }
+
+
     
     .c-dots {
         padding-left: 90px;
@@ -369,33 +431,25 @@
     }
     
     .name{
-        padding-left: 101px;
+        padding-left: 19%;
         font-size: 21px;
     }
     
     h4.hr {
-        width: 154px;
-        margin-left: 102px;
-        margin-top: 15.5%;
-    
+        margin-left: 48%;
     }
     
     .cc-card i {
-        padding-left: 99px;
+        padding-left: 18%;
         font-weight: 700;
         font-size: 15px;
     }
     
-    .arrow-s {
-        position: absolute;
-        margin-top: 12%;
-        left: 0%;
-    }
-    
-    .arrow-e {
-        margin-top: -93%;
-        margin-right: 17%;
-        width: 0px;
+    .head-line {
+        text-align: start;
+        padding-left: 7%;
+        font-size: 39px;
+        margin-top: 593px;
     }
     .experience {
         box-shadow: 1px 1px #b9b3b3;
@@ -431,7 +485,7 @@
         margin-left: 17%;
         margin-top: 10%;
         margin-right: 17%;
-        width: 63%;
+        width: 74%;
     }
     
     
@@ -523,7 +577,11 @@
     
     .menu-list li {
         padding: 10px;
-        padding-left: 172px;
+        padding-left: 43%;
+        font-size: 16px;
+    }
+    .home2 {
+        margin-left: 0px;
     }
     .line {
         display: none;
@@ -540,10 +598,14 @@
         padding: 10px;
         text-align: start;
         padding-left: 152px;
+        font-size: 17px;
+    }
+    .practise {
+        margin-left: 0px;
     }
     
     .codechef-i {
-        position: inherit;
+        /* position: inherit; */
         margin-top: 58px;
         text-align: center;
         
@@ -558,7 +620,9 @@
         float: right;
     }
     .pay {
-        margin-left: -26px;
+        margin-top: 80px;
+        right: 55px;
+        font-size: 20px;
     }
     
     .pay img {
@@ -567,7 +631,11 @@
     }
     
     .p-card {
-        margin-left: -31px;
+        position: absolute;
+
+        width: 64%;
+        margin-left: 24%;
+        margin-top: 135px;
     }
     
  
@@ -582,4 +650,3 @@
 
 
 
-  
