@@ -321,13 +321,13 @@ section {
     font-weight: 600;
     font-size: 1.25vw;
 }
-.Advanced , .Expert{
+.Advanced , .Exp{
     letter-spacing: 1.3px;
     color: #FF5912;
     font-weight: 400;
     font-size: 1.5vw;
 }
-.Expert {
+.Exp {
     padding-left: 35%;
 }
 .Advanced { 
