@@ -1,149 +1,171 @@
 @media only screen and (max-width: 425px) {
-
     .header {
-        height: 70px;
+        height: 81px;
+        padding: 0%;
     }
     .header-left {
-        font-size: 3vw;
-        padding-left: 10%;
-        font-weight: 500;
+        margin-top: 17px;
+        padding-left: 43px;
     }
     .mail {
+        position: relative;
         width: 18px;
+        top: 1px;
     }
     .phone {
-        width: 12px;
+        width: 13px;
+        margin-top: 1px;
     }
-    
-    .logo1 {
-        padding-top: 14px;
-        letter-spacing: .6px;
+    .logo img {
+        padding-top: 0px;
+        margin-top: 0px;
     }
     .logo2 {
         padding-left: 12px;
-        letter-spacing: .7px;
-        padding-top: 12px;
     }
-
     div.logo1 span {
         padding-left: 7px;
+        font-size: 3.1vw;
+        letter-spacing: .5px;
+        font-weight: 400;
     }
     div.logo2 span {
-        padding-left: 8px;
+        padding-left: 7px;
+        font-weight: 400;
+        font-size: 3.1vw;
+        letter-spacing: .5px;
+        position: relative;
+        top: -1px;
     }
-
     .logo span {
         padding-left: 0px;
     }
    .header-right {
-    padding-right: 11%;
-    padding-top: 10px;
+        padding-right: 45px;
+        padding-top: 10px;
    }
-
    .login {
-    padding-right: 21px;
-    font-size: 12px;
-    padding-top: 8px;
+        padding-right: 20px;
+        font-size: 12px;
+        padding-top: 8px;
+        font-weight: 400;
     }
    .header-right button {
-    font-size: 13px;
-    height: 26px;
-    width: 82px;
-    margin-top: 0px;
-    padding-left: 0px;
-    border-radius: 1px;
+        font-size: 12px;
+        height: 26px;
+        width: 83px;
+        margin-top: 0px;
+        padding-left: 0px;
+        border-radius: 2px;
+        letter-spacing: .2px;
     }
-    /*  */
+    /* navgigetion */
     .navigetion {
-        padding: 1%;
+        padding: 0%;
         margin-bottom: 0px;
+        margin-top: 18px;
+        margin-left: 10px;
     }
-    
     .dsa-logo {
-        float: left;
-        padding-left: 7%;
+        padding-left: 5.6%;
     }
-
     .chef-logo {
         padding: 0%;
-        margin-top: 16px;
-        width: 7%;
-        padding-right: 4px;
+        width: 30px;
+        height: 29px;
     }
     .one-line {
-        padding-top: 14px;
+        padding-top: 0px;
     }
     .leave {
         height: 13px;
     }
+    .l-two {
+        position: relative;
+        right: 7px;
+        top: 2.2px;
+    }
     .code-m {
-        padding-right: -1px;
-        width: 17%;
+        width: 48px;
+        padding-bottom: 0px;
+        position: relative;
+        right: 2px;
     }
     .code-cer {
         height: 10px;
-        padding-left: 1px;
+        padding-left: 0px;
+        position: relative;
+        right: 3px;
     }
-
     .dsa img {
-        width: 90%;
+        width: 92.3%;
+        margin-top: -3px;
     }
     .one-line, .dsa {
-        padding-left: 15%;
+        padding-left: 16%;
     }
     .dots {
         padding-left: 75%;
-    } 
+    }
+    /*  nav-menu */
    .nav-menu {
-        margin-right: 0px;
-        padding-left: 4%;
-        margin-top: 24px;
-        float: none;
+    margin-right: 0px;
+    padding-left: 3%;
+    margin-top: 23px;
+    float: none;
     }
 
     .nav-menu li {
-        padding: 6.2%;
-        font-size: 4vw;
+        font-size: 3.89vw;
+        padding-left: 5.7%;
     }
-    /*  */
+    .home1 p {
+        border: 2px solid #ff5912;
+        width: 13px;
+        border-radius: 3px;
+        margin-top: 2px;
+    }
+    /*  registration banner */
  
     .dsa-banner{
-        height: 755px;
+        height: 569px;
         margin-top: 0px;
     }
     .dsa-banner h1 {
-        font-size: 8vw;
-        padding-left: 9%;
+        font-size: 30px;
         letter-spacing: 1px;
+        padding-right: 11%;
+        line-height: 45px;
+        padding-left: 1px;
+        font-weight: 500;
     }
-
     .dsa-info {
-        padding-top: 34px;
+        padding-top: 35.3px;
         margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 31px;
     }
-
     .dsa-banner p {
-        font-size: 25.9px;
-        margin-top: 11%;
-        line-height: 48px;
-        padding-left: 8%;
-        letter-spacing: 0;
+        font-size: 18px;
+        margin-top: 25.79px;
+        line-height: 38.1px;
+        padding-left: 1.5px;
+        letter-spacing: .9px;
+        padding-right: 67px;
+        font-weight: 400;
     }
-
     .dsa-banner button {
-        margin-left: 7%;
-        margin-top: 44px;
-        width: 220px;
+        margin-left: 8.7%;
+        margin-top: 34px;
     }
-
     .chef-img {
-        padding-right: 3%;
-        margin-top: -16px;
-        width: 191px;
+        margin-top: -15px;
+        width: 145px;
+        padding-right: 0px;
     }
     /*  reg */
     .registration {
-        height: 118px;   
+        height: 124px;   
     } 
     .registration ul {
         display: block;
@@ -154,262 +176,237 @@
         display: none;
     }
     .date-text {
-        font-size: 15px;
-        padding-top: 186px;
+        margin-bottom: 10px;
+        letter-spacing: .4px;
+        font-size: 14px;
     }
     .reg {
-        padding: 12px 17px;
+        padding: 11px 38px;
     }
     .date {
-        font-size: 21px;
+        font-size: 18px;
         float: right;
-        padding-right: 26px;
-        margin-top: -47px;
+        padding-right: 9%;
+        margin-top: -50px;
     }
-
     /* dsa-certi */
     .dsa-certi {
-        height: 639px;
+        height: 669px;
     }
-    
     .dsa-certi h1 {
-        font-size: 31px;
-        padding-top: 54px;
-        padding-left: 7%;
-        text-align: start;
+        font-size: 38px;
+        padding-top: 63px;
+        text-align: center;
+        padding-right: 15.1%;
+        letter-spacing: -1.5px;
     }
-    
     .dsa-Description p {
-        padding-top: 24px;
-        font-size: 17px;
-        padding-left: 31px;
-        letter-spacing: 1.7px;
+        padding-top: 28.8px;
+        line-height: 32px;
+        font-size: 19px;
+        padding-left: 33.5px;
+        letter-spacing: .4px;
+        padding-right: 23%;
     }
     .next-p {
-        padding-top: 33px !important;
+        padding-top: 35px !important;
+        padding-right: 14% !important;
     }
     .enrol {
-        margin-top: 11%;
+        margin-top: 52px;
     }
     .enrol h1{
         text-align: start;
-        font-size: 40px;
-        padding-left: 31px;
+        font-size: 35px;
+        padding-left: 9%;
+        letter-spacing: 0;
     }
     .enrol ul {
-        margin-left: 0%;
-        padding-top: 27px;
+        margin-left: 2%;
+        padding-top: 23px;
     }
     .enrol ul li {
-        padding-left: 16%;
-        font-size: 16px;
-        font-weight: 400;
+        padding-left: 13%;
+        font-size: 4.2vw;
     }
     .horizontal {
-        width: 29px;
+        width: 30px;
+        margin-top: 10px;
     }
     .foundation {
-        margin-top: -0.5%;
+        margin-top: -1%;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }
+    .Advanced {
+        letter-spacing: 1.2px;
+    }
+    .Exp  {
+        letter-spacing: 1.3px;
     }
     .levels > p {
-        line-height: 42px;
-        padding-top: 8px;
-        padding-left: 10%;
-        padding-right: 20%;
+        line-height: 32px;
+        padding-top: 31px;
+        padding-left: 9.5%;
+        padding-right: 12%;
+        font-size: 4.8vw;
+        letter-spacing: 0.91px;
     }
     .des-img >h3, .levels > p {
-        font-size: 16px;
-        letter-spacing: .89px;
-        color: #2F2F2F;
-        font-weight: 350;
+        font-weight: 400;
+    }
+    .des-img .red-title {
+        padding-top: 14px;
+        font-size: 5.5vw;
+        letter-spacing: .6px;
+        font-weight: 400; 
+    }
+    .des-img .mock {
+        font-size: 5.4vw;
+        padding-top: 44px;
+        letter-spacing: .9px;
+        padding-bottom: 3px;
     }
     section {
         display: block;
-        padding-left: 9%;
+        padding-left: 9.39%;
         padding-right: 0%;
     }
     .titles {
-        padding-top: 36px;
-        font-size: 18px;
-        letter-spacing: 1.9px;
+        padding-top: 0px;
+    }
+    .title1 {
+        padding-top: 67px;
+        font-size: 5.9vw;
+        letter-spacing: 1.3px;
+        color: #736666;
     }
     .title2 {
         display: none;
     }
+    .des-img .h3-text {
+        line-height: 31px;
+        font-size: 5.3vw;
+        letter-spacing: 1.1px;
+        font-weight: 400;
+        padding-right: 2%;
+    }
+    .des-img {
+        min-width: 60%;
+        margin-right: 21px;
+        padding-top: 20px;
+    }
+    .h3-text br {
+        display: none;
+    }
     .mobile-price {
         display: block;
-        margin-top: 51px;
-        font-size: 23px;
+        margin-top: 67px;
+        font-size: 5.8vw;
+        letter-spacing: 1.5px;
+        padding-left: 3px;
+        color: #736666;
     }
     .card-m {
         display: block;
-        padding-top: 24px;
+        padding-top: 11px;
         padding-left: 1%;
-        width: 85%;
+        width: 93%;
     }
     .rs {
-        margin-top: -223px;
+        margin-top: -258px;
         position: absolute;
         font-size: 5.9vw;
-        line-height: 11vw;
+        line-height: 43px;
         margin-left: 17.5%;
         letter-spacing: .1vw;
-        font-weight: 100;
-        margin-right: 27%;
+        font-weight: 400;
+        margin-right: 26%;
     }
     .banner-button, .levels-button {
-        width: 58.1%;
-        height: 55px;
-        font-size: 22px;
+        width: 60.5%;
+        height: 47px;
+        font-size: 18px;
         border: none;
         background-color: #ff4107;
         color: white;
+        font-weight: 300;
+        letter-spacing: 0.6px;
     }
     .levels-button {
         margin-left: 11.2%;
-        margin-top: -1px;
+        margin-top: -15px;
+        margin-bottom: 6px;
     }
-
-
-    
-   
-/* 
-    .title_  {
-        padding-left: 32px;
-        color: #2f2d2d;
-        letter-spacing: 2px;
-        font-size: 22px;
-    }
-    
-    .detail {
-        padding-left: 30px;
-        padding-top: 44px;
-        font-size: 26px;
-        font-weight: 700;
-    }
-    
-    .detail h4 {
-        padding-top: 28px;
-        font-size: 19px;
-    } */
-
-    /* .detail h3 {
-        padding-top: 19px;
-        font-size: 21px;
-        color: #ff5912;
-        letter-spacing: 2.7px;
-    }
-    
-    .mock {
-        padding-top: 20px;
-    }
-    
-    .courses {
-        position: relative;
-        font-size: 24px;
-        margin-bottom: 102x;
-        padding-bottom: 64px;
-    }
-    .courses h4{
-        padding-left: 33px;
-        font-size: 35px;
-        padding-top: 78px;
-    } */
     .card-l {
         display: none;
     }
-   
-
-    /* .old-price,.Discounted-price,.avail-p{
-        margin-left: 12%;
-    } */
-    /* .old-price {
-        margin-left: 11%;
-        margin-top: -67%;
-    } */
-    
-    .courses > div {
-        margin-left: 13%;
-        line-height: 52px;
-        width: 297px;
-    }
-    .courses button {
-        margin-left: 7.1%;
-        margin-top: 99px;
-        width: 266px;
-    }
     .testimonials {
-        margin-top: 6%;
-        height: 304px;
+        margin-top: -1%;
+        height: 876px;
     }
-
-    /*  */
     .testimonials > h2 {
-        padding-top: 58px;
-        font-size: 45px;
-        padding-left: 32px;
-        text-align: start;
+        padding-top: 16.2%;
+    font-size: 10.5vw;
+    padding-left: 37px;
+    text-align: start;
+    margin-top: 20%;
+    letter-spacing: -1.7px;
     }
     
     .lorem-t {
         text-align: start;
-        margin-top: -21px;
-        letter-spacing: 1px;
-        padding: 42px;
-        line-height: 31px;
+        margin-top: -30px;
+        padding: 40px 40px 45px 42px;
+        line-height: 30px;
         margin-bottom: 0%;
+        letter-spacing: .65px;
+        font-size: 5.5vw;
+        font-weight: 400;
     }
     .right-cont {
         position: absolute;
         margin-top: 18px;
     }
-
-
-
-    .left-cart , .right-card {
+    .left-cart, .arrow-s img ,.arrow-e img, .right-card {
         display: none;
     }
-    
     .cc-card {
         background-color: white;
-        height: 531px;
+        height: 514px;
         margin-left: 0%;
         margin-right: 0px;
-        width: 100%;
+        width: auto;
     }
-    
     .whitecard{
         display: none;
     }
-    
     .amit_image {
-        margin-top: 337px;
-        margin-left: 29%;
-        width: 117%;
+        margin-top: 305px;
+        margin-left: 33%;
+        width: 130%;
     }
-    
     .cc-photo {
-        width: 26.4%;
-        height: 531px;
+        width: 23%;
+        height: 515.8px;
     }
-    
     .sof {
         font-size: 17px;
         line-height: 24px;
-        padding-left: 18%;
-        letter-spacing: 1px;
-    }
-    
+        padding-left: 17%;
+        letter-spacing: 1.5px;
+        font-weight: 400;
+    }    
     .content_ccdsa {
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding-left: -18px;
-        width: 55%;
-        padding-top: 8px;
+        font-size: 4.4vw;
+        letter-spacing: .6px;
+        width: 62%;
+        line-height: 27px;
+        padding-top: 12.39px;
     }
     .padding {
         color: #2F2F2F;
-        margin-left: 30%;
+        margin-left: 27%;
     }
     .quote {
         position: absolute;
@@ -417,11 +414,6 @@
         margin-top: -11px;
         width: 10.4%;
     }
-    
-    
-
-
-    
     .c-dots {
         padding-left: 90px;
         filter: blur(0.5px);
@@ -429,27 +421,29 @@
     .d-img {
         width: 56px;
     }
-    
     .name{
-        padding-left: 19%;
+        padding-left: 17%;
         font-size: 21px;
+        padding-top: 53.9px;
+        letter-spacing: 1px;
     }
-    
     h4.hr {
-        margin-left: 48%;
+        margin-left: 44%;
+        margin-top: 19px;
+        width: 43%;
     }
-    
     .cc-card i {
-        padding-left: 18%;
+        padding-left: 17%;
         font-weight: 700;
         font-size: 15px;
+        letter-spacing: 1.5px;
     }
-    
     .head-line {
         text-align: start;
-        padding-left: 7%;
-        font-size: 39px;
-        margin-top: 593px;
+        padding-left: 9.5%;
+        font-size: 9.8vw;
+        margin-top: 21px;
+        letter-spacing: -1px;
     }
     .experience {
         box-shadow: 1px 1px #b9b3b3;
@@ -458,102 +452,118 @@
         float: right;
         margin-top: -13%;
     }
-    
     h2.head-line {
         text-align: center;
         font-size: 44px;
         padding-top: 95px;
         font-weight: 300;
     }
-    
     p.lorem-t2 {
         display: none;
     }
-    
     .certified-u {
-        margin-top: 0%;
+        margin-top: 27px;
         margin-left: 0%;
-    
     }
-    
     .box {
         background: linear-gradient(to right, #f7f7f7 55%, #ffffff 45%);
         border: 1px solid #cbcbcb;
     }
-    
     .card {
-        margin-left: 17%;
-        margin-top: 10%;
-        margin-right: 17%;
-        width: 74%;
+        margin-left: 21.1%;
+        margin-top: 5.899%;
+        margin-bottom: 31px;
+        width: 228px;
+        height: 411px;
     }
-    
-    
     .user-img {
-        padding-top: 58px;
-        padding-left: 58px;
-        width: 125px;
+        padding-top: 51px;
+        padding-left: 44px;
+        width: 113px;
+        height: 155px;
     }
-    
     .card h3 {
-        padding-top: 47px;
-        padding-left: 55px;
+        padding-top: 46px;
+        padding-left: 45px;
+        font-size: 16px;
+        letter-spacing: .6px;
     }
-    
-    
     .card p {
-        padding-top: -1px;
-        padding-left: 55px;
-        font-size: 17px;
-        line-height: 36px;
+        padding-top: 3px;
+        padding-left: 45px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: .3px;
+        padding-bottom: 0px;
     }
-    
-    
     .card span {
-        padding-left: 55px;
-        font-size: 17px;
+        padding-left: 45px;
+        font-size: 13px;
+        position: relative;
+        top: -2px;
     }
-    
-    
     .under-line {
-        width: 170px;
-        margin-left: 55px;
-        margin-top: 19px;
-     
+        width: 149px;
+        margin-left: 44px;
+        margin-top: 17px;
     }
-    
     .tag {
-        padding-top: 20px;
-        margin-left: 54px;
-        font-size: 19px;
-        font-weight: 100;
-    
+        padding-top: 15px;
+        margin-left: 46px;
+        font-size: 17px;
+        letter-spacing: -.1px;
+        color: #5f5a5a;
+        font-weight: 400;
     }
-    
     .dot {
-        padding-left: 17%;
-        padding-top: 2%;
+        padding-left: 35px;
+        padding-top: 4px;
     }
-    .social-m h3 {
-        text-align: center;
-        padding-top: 2%;
+    .social-media {
+        margin-top: 60px;
+        height: 120px;
+        border-bottom: 1px solid white;
+    }
+    .social-media h3 {
+        font-size: 16px;
+    margin-right: 14px;
+    letter-spacing: .6px;
+    padding-top: 33px;
+    }
+    #cc-dsa img {
+       width: 9%;
+    margin-left: 5%;
+    }
+    #cc-dsa {
+        font-size: 14px;
     }
     
-    .social-m {
-        padding-top: 8%;
-        text-align: center;
-        height: 100px;
-    }   
-    
-    
-    .social-m img {
-        padding: 10px;
+    .i-con {
+        padding-left: 0%;
+        padding-top: 13px;
     }
-    
+    .social-media img {
+        padding: 6px;
+    } 
+    .fb {
+        width: 12px;
+        height: 24px;
+        margin-right: 1px;
+    }
+    .tw {
+        width: 30px; 
+    }  
+    .gg {
+        width: 27px;
+    }
+    .in {
+        width: 25px;
+        margin-left: 1px;
+    }
     .footer {
-        background-color: #f2f2f2;
-        height: 770px;
-    
+        height: 624px;
+        padding: 0px;
+        padding-top: 16px;
     }
     .footer h4 {
         text-align: center;
@@ -574,73 +584,72 @@
     .menu-list {
         display: initial;
     }
-    
     .menu-list li {
-        padding: 10px;
-        padding-left: 43%;
-        font-size: 16px;
+        padding: 0px;
+        padding-left: 40.5%;
+        font-size: 14px;
+        padding-bottom: 16px;
     }
     .home2 {
+        color: rgb(252, 92, 34);
         margin-left: 0px;
+        margin-top: 2px;
+    }
+    .home2 p {
+        display: none;
     }
     .line {
         display: none;
     }
-    
     .menu-list2 {
         display: inline;
-        margin-top: 10px;
         margin-left: 0px;
-       
+        position: relative;
+        top: 32px;
     }
-    
+    .codechef-img {
+        height: 11px;
+        padding-left: 0px;
+        position: relative;
+        right: 4px;
+        top: 3px;
+    }
     .menu-list2 li {
-        padding: 10px;
         text-align: start;
-        padding-left: 152px;
-        font-size: 17px;
+        padding-left: 38.5%;
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: .5px;
+        padding-bottom: 15px;
     }
     .practise {
+        margin-top: 4px;
         margin-left: 0px;
     }
-    
     .codechef-i {
-        /* position: inherit; */
         margin-top: 58px;
         text-align: center;
-        
     }
-    
     .codechef-i > img {
         width: 91px;
         padding-right: 7px;
     }
-    
     .pay-cards {
         float: right;
     }
     .pay {
-        margin-top: 80px;
-        right: 55px;
-        font-size: 20px;
+        font-size: 16px;
+        position: relative;
+        top: 58px;
+        left: 108px;
+        letter-spacing: .4px;
     }
-    
-    .pay img {
-        margin-top: 0px;
-        width: 138px;
-    }
-    
     .p-card {
-        position: absolute;
-
-        width: 64%;
-        margin-left: 24%;
-        margin-top: 135px;
+        margin-top: 89px;
+        left: 97px;
+        width: 126%;
     }
-    
- 
-  
-  }
+}
 
 
 
