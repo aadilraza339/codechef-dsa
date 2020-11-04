@@ -73,6 +73,8 @@
         padding: 0%;
         width: 30px;
         height: 29px;
+        margin-top: -0.29px;
+        padding-bottom: 1px;
     }
     .one-line {
         padding-top: 0px;
@@ -83,19 +85,21 @@
     .l-two {
         position: relative;
         right: 7px;
-        top: 2.2px;
+        top: 2.1px;
     }
     .code-m {
         width: 48px;
         padding-bottom: 0px;
         position: relative;
         right: 2px;
+        top: -1px;
     }
     .code-cer {
-        height: 10px;
+        height: 10.5px;
         padding-left: 0px;
         position: relative;
         right: 3px;
+        top: -1.6px;
     }
     .dsa img {
         width: 92.3%;
@@ -106,6 +110,9 @@
     }
     .dots {
         padding-left: 75%;
+    }
+    .dots img {
+        height: 4.9px;
     }
     /*  nav-menu */
    .nav-menu {
@@ -126,9 +133,19 @@
         margin-top: 2px;
     }
     /*  registration banner */
- 
+    .registration {
+        display: none;
+    }
+    .mobile-reg {
+        background-color: rgb(59, 56, 56);
+        color: white;
+    }
+    .mobile-reg ul {
+        padding-bottom: 30px;
+        padding-top: 7px;
+    }
     .dsa-banner{
-        height: 569px;
+        height: 568px;
         margin-top: 0px;
     }
     .dsa-banner h1 {
@@ -148,15 +165,15 @@
     .dsa-banner p {
         font-size: 18px;
         margin-top: 25.79px;
-        line-height: 38.1px;
+        line-height: 38px;
         padding-left: 1.5px;
         letter-spacing: .9px;
         padding-right: 67px;
         font-weight: 400;
     }
     .dsa-banner button {
-        margin-left: 8.7%;
-        margin-top: 34px;
+        margin-left: 8.3%;
+        margin-top: 33px;
     }
     .chef-img {
         margin-top: -15px;
@@ -169,25 +186,28 @@
     } 
     .registration ul {
         display: block;
-        padding-top: 17px;
+        padding-top: 29px;
         margin-left: 0%;
     }
     .divider {
         display: none;
     }
     .date-text {
-        margin-bottom: 10px;
-        letter-spacing: .4px;
+        letter-spacing: .3px;
         font-size: 14px;
+        padding-left: 8.59%;
+        padding-top: 27px;
+        /* margin-top: 0px; */
+        position: relative;
+        top: -2px;
     }
-    .reg {
-        padding: 11px 38px;
-    }
+
     .date {
         font-size: 18px;
         float: right;
-        padding-right: 9%;
-        margin-top: -50px;
+        padding-right: 8.29%;
+        margin-top: -20px;
+        letter-spacing: .5px;
     }
     /* dsa-certi */
     .dsa-certi {
@@ -195,25 +215,25 @@
     }
     .dsa-certi h1 {
         font-size: 38px;
-        padding-top: 63px;
+        padding-top: 62.5px;
         text-align: center;
         padding-right: 15.1%;
-        letter-spacing: -1.5px;
+        letter-spacing: -1.47px;
     }
     .dsa-Description p {
-        padding-top: 28.8px;
-        line-height: 32px;
+        padding-top: 29.7px;
+        line-height: 32.2px;
         font-size: 19px;
         padding-left: 33.5px;
         letter-spacing: .4px;
         padding-right: 23%;
     }
     .next-p {
-        padding-top: 35px !important;
+        padding-top: 34.2px !important;
         padding-right: 14% !important;
     }
     .enrol {
-        margin-top: 52px;
+        margin-top: 53px;
     }
     .enrol h1{
         text-align: start;
@@ -223,10 +243,10 @@
     }
     .enrol ul {
         margin-left: 2%;
-        padding-top: 23px;
+        padding-top: 21px;
     }
     .enrol ul li {
-        padding-left: 13%;
+        padding-left: 12.8%;
         font-size: 4.2vw;
     }
     .horizontal {
@@ -234,7 +254,7 @@
         margin-top: 10px;
     }
     .foundation {
-        margin-top: -1%;
+        margin-top: -1px;
         font-weight: 500;
         letter-spacing: 1.2px;
     }
@@ -257,7 +277,7 @@
         font-weight: 400;
     }
     .des-img .red-title {
-        padding-top: 14px;
+        padding-top: 13px;
         font-size: 5.5vw;
         letter-spacing: .6px;
         font-weight: 400; 
@@ -272,6 +292,7 @@
         display: block;
         padding-left: 9.39%;
         padding-right: 0%;
+        margin-bottom: -175px;
     }
     .titles {
         padding-top: 0px;
@@ -302,7 +323,7 @@
     }
     .mobile-price {
         display: block;
-        margin-top: 67px;
+        margin-top: 68px;
         font-size: 5.8vw;
         letter-spacing: 1.5px;
         padding-left: 3px;
@@ -312,22 +333,31 @@
         display: block;
         padding-top: 11px;
         padding-left: 1%;
-        width: 93%;
+        width: 92%;
     }
     .rs {
-        margin-top: -258px;
-        position: absolute;
-        font-size: 5.9vw;
-        line-height: 43px;
-        margin-left: 17.5%;
-        letter-spacing: .1vw;
-        font-weight: 400;
-        margin-right: 26%;
+       display: none;
+    }
+    .dis-p {
+        position: relative;
+        top: -250.5px;
+        margin-right: 21%;
+        margin-left: 62px;
+        line-height: 44px;
+        font-size: 23px;
+        font-weight: 300;
+        letter-spacing: 1px;
+    }
+    .Avail {
+        letter-spacing: .9px;
+        display: block;
+        margin-top: 14px;
+        line-height: 38px;
     }
     .banner-button, .levels-button {
         width: 60.5%;
         height: 47px;
-        font-size: 18px;
+        font-size: 18px !important; 
         border: none;
         background-color: #ff4107;
         color: white;
@@ -336,8 +366,9 @@
     }
     .levels-button {
         margin-left: 11.2%;
-        margin-top: -15px;
-        margin-bottom: 6px;
+        margin-top: -10.2px !important;
+        margin-bottom: 7px;
+        height: 48px;
     }
     .card-l {
         display: none;
@@ -347,12 +378,12 @@
         height: 876px;
     }
     .testimonials > h2 {
-        padding-top: 16.2%;
-    font-size: 10.5vw;
-    padding-left: 37px;
-    text-align: start;
-    margin-top: 20%;
-    letter-spacing: -1.7px;
+        padding-top: 16.8%;
+        font-size: 10.5vw;
+        padding-left: 37px;
+        text-align: start;
+        margin-top: 20%;
+        letter-spacing: -1.7px;
     }
     
     .lorem-t {
@@ -409,6 +440,11 @@
         color: #2F2F2F;
         margin-left: 27%;
     }
+    .card-dot {
+        margin-left: 41.49%;
+        margin-top: 46px;
+        width: 21%;
+    }
     .quote {
         position: absolute;
         margin-left: -13.7%;
@@ -425,12 +461,12 @@
     .name{
         padding-left: 17%;
         font-size: 21px;
-        padding-top: 53.9px;
+        padding-top: 53.5px;
         letter-spacing: 1px;
     }
     h4.hr {
         margin-left: 44%;
-        margin-top: 19px;
+        margin-top: 18.9px;
         width: 43%;
     }
     .cc-card i {
@@ -443,7 +479,7 @@
         text-align: start;
         padding-left: 9.5%;
         font-size: 9.8vw;
-        margin-top: 21px;
+        margin-top: 22px;
         letter-spacing: -1px;
     }
     .experience {
@@ -473,8 +509,8 @@
     .card {
         margin-left: 21.1%;
         margin-top: 5.899%;
-        margin-bottom: 31px;
-        width: 228px;
+        margin-bottom: 30px;
+        width: 229px;
         height: 411px;
     }
     .user-img {
@@ -521,15 +557,15 @@
         padding-top: 4px;
     }
     .social-media {
-        margin-top: 60px;
+        margin-top: 66px;
         height: 120px;
         border-bottom: 1px solid white;
     }
     .social-media h3 {
         font-size: 16px;
-    margin-right: 14px;
-    letter-spacing: .6px;
-    padding-top: 33px;
+        margin-right: 14px;
+        letter-spacing: .5px;
+        padding-top: 35px;
     }
     #cc-dsa img {
        width: 9%;
@@ -542,6 +578,7 @@
     .i-con {
         padding-left: 0%;
         padding-top: 13px;
+        padding-right: 5px;
     }
     .social-media img {
         padding: 6px;
@@ -589,12 +626,12 @@
         padding: 0px;
         padding-left: 40.5%;
         font-size: 14px;
-        padding-bottom: 16px;
+        padding-bottom: 15px;
     }
     .home2 {
         color: rgb(252, 92, 34);
         margin-left: 0px;
-        margin-top: 2px;
+        margin-top: 6px;
     }
     .home2 p {
         display: none;
@@ -606,22 +643,22 @@
         display: inline;
         margin-left: 0px;
         position: relative;
-        top: 32px;
+        top: 34.2px;
     }
     .codechef-img {
         height: 11px;
-        padding-left: 0px;
+        padding-left: .88px;
         position: relative;
         right: 4px;
         top: 3px;
     }
     .menu-list2 li {
         text-align: start;
-        padding-left: 38.5%;
+        padding-left: 38.3%;
         font-size: 14px;
         font-weight: 200;
         letter-spacing: .5px;
-        padding-bottom: 15px;
+        padding-bottom: 15.1px;
     }
     .practise {
         margin-top: 4px;
@@ -641,13 +678,13 @@
     .pay {
         font-size: 16px;
         position: relative;
-        top: 58px;
-        left: 108px;
-        letter-spacing: .4px;
+        top: 61px;
+        left: 114px;
+        letter-spacing: .25px;
     }
     .p-card {
-        margin-top: 89px;
-        left: 97px;
+        margin-top: 95px;
+        left: 94px;
         width: 126%;
     }
 }

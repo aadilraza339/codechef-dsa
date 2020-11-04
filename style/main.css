@@ -33,7 +33,10 @@
     padding-top: 1px;
 }
 .logo2 {
-    padding-left: 22px;
+    padding-left: 23px;
+}
+.logo2 span {
+    padding-left: 1px;
 }
 .logo span {
     padding-left: 7px;
@@ -77,7 +80,7 @@
     display: -webkit-inline-flex;
     float: right;
     margin-top: 30px;
-    margin-right: 299px;
+    margin-right: 296px;
 }
 .nav-menu li {
     padding: 7.89%;
@@ -87,9 +90,13 @@
 .chef-logo {
     position: absolute;
     border: 1.3px solid #cbcbcb;
-    padding: 3px;
+    /* padding: 3px; */
+    padding-left: 3px;
     margin-top: 0.6%;
-    width: 45px;
+    width: 44px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 1px;
 }
 .one-line {
     padding-top: 21px;
@@ -150,7 +157,8 @@
 }
 .levels-button {
     margin-left: 43.2%;
-    margin-top: 100px;
+    margin-top: 101px;
+    font-size: 21px !important;
 }
 .banner-button ,.levels-button{ 
     width: 14.1%;
@@ -162,8 +170,8 @@
 }
 .chef-img {
     float: right;
-    padding-right: 4.79%;
-    margin-top: 88px;
+    padding-right: 4.69%;
+    margin-top: 86px;
     width: 214px;
 }
 .registration {
@@ -180,11 +188,12 @@
 }
 .title2 {
     margin-top: 308px;
+    padding-left: 1px;
 }
 .card-l {
     position: absolute;
-    width: 35%;
-    right: 25.5%;
+    width: 34.8%;
+    right: 25.9%;
     margin-top: 33px;
 }
 section {
@@ -239,6 +248,9 @@ section {
     letter-spacing: .1vw;
     font-weight: 100;
 }
+.Avail {
+    letter-spacing: 2px;
+}
 .registration ul {
     display: -webkit-inline-flex;
     list-style: none;
@@ -255,11 +267,10 @@ section {
 }
 .divider {
     border-left: 1px solid white;
-    margin: 20px 54px 20px 58px;
+    margin: 20px 54px 20px 56px;
 }
 .date {
     font-size: 27.5px;
-    letter-spacing: 0px;
     font-weight: 300;
     padding-left: 25px;
 }
@@ -328,11 +339,11 @@ section {
     font-size: 1.5vw;
 }
 .Exp {
-    color: #FF5912;
-    padding-left: 35%;
+
+    padding-left: 35.8%;
 }
 .Advanced { 
-    padding-left: 38%;
+    padding-left: 37.8%;
 }
 .horizontal {
     border: 2px solid #ff5912;
@@ -428,9 +439,9 @@ section {
     padding-bottom: 28%;
 }
 .amit_image{
-    margin-top: 166px;
+    margin-top: 170px;
     margin-left: 39%;
-    width: 74%;
+    width: 73%;
 }
 .cc-photo {
     width: 9.6%;
@@ -450,8 +461,8 @@ section {
 }
 .content_ccdsa img {
     position: absolute;
-    margin-left: -3.7%;
-    margin-top: -11px;
+    margin-left: -3%;
+    margin-top: -17px;
     width: 2.4%;
 }
 .content_ccdsa {
@@ -464,6 +475,10 @@ section {
 .padding {
     color: #2F2F2F;
     margin-left: 17%;
+}
+.card-dot {
+    margin-left: 56.49%;
+    margin-top: 22px;
 }
 .name {
     padding-top: 35px;
@@ -514,13 +529,13 @@ h4.hr {
     width: 3.7%;
     position: absolute;
     left: 19%;
-    margin-top: 178px;
+    margin-top: 180px;
 }
 .arrow-e  img {
     width: 3.7%;
     position: absolute;
     right: 18.4%;
-    margin-top: -250px;
+    margin-top: -247px;
 }
 .right-card {
     float: right;
@@ -588,11 +603,11 @@ p.lorem-t2 {
 .under-line {
     width: 166px;
     margin-left: 49px;
-    margin-top: 19px;
+    margin-top: 21px;
 }
 
 .tag {
-    padding-top: 19px;
+    padding-top: 17px;
     margin-left: 49px;
     font-size: 19px;
     font-weight: 100;
