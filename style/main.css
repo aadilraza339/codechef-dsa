@@ -190,6 +190,9 @@
     margin-top: 308px;
     padding-left: 1px;
 }
+.mobile-reg {
+    display: none;
+}
 .card-l {
     position: absolute;
     width: 34.8%;
@@ -458,6 +461,9 @@ section {
 .right-cont {
     position: absolute;
     margin-top: 63px;
+}
+.dis-p {
+    display: none;
 }
 .content_ccdsa img {
     position: absolute;
