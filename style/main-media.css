@@ -655,6 +655,7 @@
         position: relative;
         right: 4px;
         top: 3px;
+        left: 0px;
     }
     .menu-list2 li {
         text-align: start;
@@ -690,6 +691,27 @@
         margin-top: 95px;
         left: 94px;
         width: 126%;
+    }
+    .f-level {
+        position: relative;
+        right: 0px;
+    }
+    .compete {
+        position: relative;
+        left: 0px;
+    }
+    .discuss {
+        position: relative;
+        left: 0px;
+    }
+    .initiative {
+        position: relative;
+        left: 0px;
+    }
+    .community {
+        padding-right: 38px;
+        position: relative;
+        left: 0px;
     }
 }
 

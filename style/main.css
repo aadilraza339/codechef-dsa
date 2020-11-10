@@ -87,15 +87,22 @@
     font-size: 19px;
     color: #34404B;
 }
+.lev {
+    position: relative;
+    left: 3px;
+}
+.Detail {
+    position: relative;
+    left: 3px;
+}
 .chef-logo {
     position: absolute;
     border: 1.3px solid #cbcbcb;
-    /* padding: 3px; */
     padding-left: 3px;
-    margin-top: 0.6%;
+    margin-top: 0.5%;
     width: 44px;
     padding-right: 2px;
-    padding-top: 3px;
+    padding-top: 5px;
     padding-bottom: 1px;
 }
 .one-line {
@@ -125,6 +132,10 @@
 .home2 {
     margin-left: 24px;
 }
+.f-level {
+    position: relative;
+    right: 6px;
+}
 .dots {
     padding-left: 119%;
     margin-top: -12px;
@@ -143,6 +154,8 @@
     line-height: 53px;
     letter-spacing: 1.7px;
     font-size: 2.64vw;
+    position: relative;
+    right: 1px;
 }
 .dsa-banner p {
     font-size: 1.49vw;
@@ -154,6 +167,7 @@
 .banner-button {
     margin-left: 19%;
     margin-top: 65px;
+    letter-spacing: -.1px;
 }
 .levels-button {
     margin-left: 43.2%;
@@ -227,6 +241,9 @@ section {
 .mock {
     padding-top: 40px;
 }
+.mo-red {
+    padding-left: 2px;
+}
 .titles {
     padding-top: 36px;
     font-size: 1.2vw;
@@ -251,8 +268,13 @@ section {
     letter-spacing: .1vw;
     font-weight: 100;
 }
+.p-dis {
+    padding-left: 14px;
+}
 .Avail {
     letter-spacing: 2px;
+    padding-top: .9px;
+    display: block;
 }
 .registration ul {
     display: -webkit-inline-flex;
@@ -473,10 +495,10 @@ section {
 }
 .content_ccdsa {
     line-height: 35px;
-    letter-spacing: 1.6px;
+    letter-spacing: 1.79px;
     font-size: 1.2vw;
     margin-right: 41%;
-    font-weight: 400;
+    font-weight: 300;
 }
 .padding {
     color: #2F2F2F;
@@ -496,8 +518,8 @@ section {
     float: left;
     height: 356px;
     position: absolute;
-    background-color: white;
-    opacity: .2;
+    background-color: #ffffff;
+    /* opacity: .2; */
     margin-top: 2%;
     width: 12.69%;
 }
@@ -508,10 +530,11 @@ section {
     padding-top: 52px;
     padding-right: 55px;
     font-weight: 400;
+    opacity: .21;
 }
 .left-cart p {
     border-bottom: 1px solid rgb(136, 127, 127);
-    padding-top: 58%;
+    padding-top: 57%;
     width: 10.2vw;
 }
 .d-img {
@@ -526,7 +549,7 @@ h4.hr {
 }
 .cc-card i {
     position: absolute;
-    margin-top: 35px;
+    margin-top: 32px;
     font-size: 1.2vw;
     letter-spacing: 2px;
     font-weight: 300;
@@ -535,21 +558,78 @@ h4.hr {
     width: 3.7%;
     position: absolute;
     left: 19%;
-    margin-top: 180px;
+    margin-top: 182px;
 }
 .arrow-e  img {
     width: 3.7%;
     position: absolute;
-    right: 18.4%;
+    right: 18.1%;
     margin-top: -247px;
 }
 .right-card {
     float: right;
-    margin-top: -386px
+    margin-top: -386px;
+    height: 356px;
+    /* position: absolute; */
+    background-color: white;
+    /* opacity: .2; */
+    width: 16%;
+
+}
+.right-img {
+    position: absolute;
+    background-color: #f7f7f7;
+    width: 1;
+    height: 356px;
+    width: 7%;
 }
 .right-card img {
-    width: 276px;
+    margin-top: 138px;
+    margin-left: 48%;
+    width: 83%;
+    opacity: 0.49;
 }
+.right-card .right-q {
+    margin-left: 155px;
+    margin-top: 36px;
+    position: absolute;
+    /* top: 48px; */
+    width: 28px;
+}
+.r-p {
+    opacity: .49;
+    margin-left: 66.1%;
+}
+.right-card h4 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 46px;
+    letter-spacing: 1.79px;
+    line-height: 34px;
+
+}
+.right-card h5 {
+    padding-top: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.right-card h6 {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 8px;
+
+}
+.right-card p {
+    border-bottom: 1px solid rgb(136, 127, 127);
+    padding-top: 5%;
+    width: 34%;
+}
+.right-card h3 {
+    font-weight: 200;
+    padding-top: 11px;
+}
+
 /* certified-users */
 .head-line {
     text-align: center;
@@ -680,7 +760,7 @@ p.lorem-t2 {
 }
 #cc-dsa img {
     width: 2%;
-    margin-left: 1.5%;
+    margin-left: 1.7%;
     position: absolute;
 }    
 .menu-list li {
@@ -689,13 +769,18 @@ p.lorem-t2 {
     padding-left: 27px;
     letter-spacing: .5px;
 }
+.menu-list li b {
+    position: relative;
+    left: 2px;
+}
+
 .menu-list2 {
     display: -webkit-inline-flex;
     margin-left: 3%;
 }
 .menu-list2 li {
     font-size: 1vw;
-    padding-left: 9.39%;
+    padding-left: 8.9%;
     font-weight: 400;
     color: #34404B;
     letter-spacing: .3px;
@@ -709,12 +794,10 @@ p.lorem-t2 {
     font-size: 0.9vw;
     position: absolute;
     font-weight: 500;
-    right: 365px;
+    right: 364px;
     letter-spacing: 1px;
 }
-.community {
-    padding-right: 38px;
-}
+
 .codechef-i > img {
     width: 88px; 
 }
@@ -724,10 +807,31 @@ p.lorem-t2 {
     width: 11%;
 }
 .practise {
-    margin-left: 13px;
+    position: relative;
+    left: 2px;
+    margin-left: 17px;
+}
+.compete {
+    position: relative;
+    left: 8px;
+}
+.discuss {
+    position: relative;
+    left: 6px;
+}
+.initiative {
+    position: relative;
+    left: 5px;
+}
+.community {
+    padding-right: 38px;
+    position: relative;
+    left: 1px;
 }
 .codechef-img {
     height: 13px;
+    position: relative;
+    left: 3px;
 }
 .mobile-price {
     display: none;
