@@ -132,6 +132,12 @@
         border-radius: 3px;
         margin-top: 2px;
     }
+    .lev {
+        left: 0px;
+    }
+    .Detail {
+        left: 0px;
+    }
     /*  registration banner */
     .registration {
         display: none;
@@ -442,6 +448,18 @@
         color: #2F2F2F;
         margin-left: 27%;
     }
+    .mob_l_arrow{
+        display: block;
+        position: absolute;
+        left: 4.6%;
+        margin-top: 214px;
+    }
+    .mob_r_arrow{
+        display: block;
+        position: relative;
+        bottom: 298px;
+        margin-left: 341px;
+    }
     .card-dot {
         margin-left: 41.49%;
         margin-top: 46px;
@@ -510,6 +528,12 @@
         background: linear-gradient(to right, #f7f7f7 55%, #ffffff 45%);
         border: 1px solid #cbcbcb;
     }
+    .mobil-cards {
+        display: block;
+    }
+    .disktop-cards {
+        display: none;
+    }
     .card {
         margin-left: 21.1%;
         margin-top: 5.899%;
@@ -537,7 +561,7 @@
         letter-spacing: .3px;
         padding-bottom: 0px;
     }
-    .card span {
+    .card > span {
         padding-left: 45px;
         font-size: 13px;
         position: relative;
@@ -668,6 +692,7 @@
     .practise {
         margin-top: 4px;
         margin-left: 0px;
+        left: 0px;
     }
     .codechef-i {
         margin-top: 58px;

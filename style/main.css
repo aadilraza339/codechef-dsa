@@ -268,6 +268,21 @@ section {
     letter-spacing: .1vw;
     font-weight: 100;
 }
+.strike_cut {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    right: 2px;
+  }
+  .strike_cut::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 20px;
+    bottom: 16px;
+    width: 116%;
+    background: linear-gradient(to left top, transparent 47.5%, currentColor 52.5%, currentColor 55.5%, transparent 42.5%);
+  }
 .p-dis {
     padding-left: 14px;
 }
@@ -333,6 +348,9 @@ section {
 }
 .next-p {
     padding-top: 43px !important;
+}
+.pera {
+    letter-spacing: 1.27px;
 }
 .enrol {
     margin-top: 4%;
@@ -452,7 +470,7 @@ section {
     margin-bottom: 81px;
 }
 .cc-card {
-    height: 427px;
+    height: 428px;
     width: 49%;
     margin-left: auto;
     background-color: white;
@@ -470,7 +488,7 @@ section {
 }
 .cc-photo {
     width: 9.6%;
-    height: 426px;
+    height: 428px;
     background-color: #F2F2F2;
     position: absolute;
 }
@@ -504,10 +522,10 @@ section {
     color: #2F2F2F;
     margin-left: 17%;
 }
-.card-dot {
+/* .card-dot {
     margin-left: 56.49%;
     margin-top: 22px;
-}
+} */
 .name {
     padding-top: 35px;
     padding-left: 2px;
@@ -522,6 +540,17 @@ section {
     /* opacity: .2; */
     margin-top: 2%;
     width: 12.69%;
+}
+.left-card-dots {
+    position: absolute;
+    left: 131px;
+}
+.p {
+    height: 12px;
+    width: 12px;
+    margin-left: -3px;
+    border-radius: 50%;
+    display: inline-block;
 }
 .left-cart > h5 {
     font-size: 1.2vw;
@@ -546,6 +575,17 @@ h4.hr {
     border-bottom: 1px solid gray;
     width: 45%;
     margin-top: 17px;
+}
+.Central-dots {
+    margin-top: 17px;
+    margin-left: 58%;
+}
+.poi {
+    padding-left: 1px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
 }
 .cc-card i {
     position: absolute;
@@ -584,7 +624,7 @@ h4.hr {
     width: 7%;
 }
 .right-card img {
-    margin-top: 138px;
+    margin-top: 136px;
     margin-left: 48%;
     width: 83%;
     opacity: 0.49;
@@ -633,12 +673,12 @@ h4.hr {
 /* certified-users */
 .head-line {
     text-align: center;
-    padding-left: 3px;
+    padding-left: 3.19px;
     font-size: 52px;
     padding-top: 6.5%;
     font-weight: 400;
     color: #34404b;
-    letter-spacing: .5px;
+    letter-spacing: .69px;
 }
 p.lorem-t2 {
     padding-top: 22px;
@@ -652,6 +692,9 @@ p.lorem-t2 {
 .box {
     background: linear-gradient(to right, #f7f7f7 55%, #ffffff 45%);
     border: 1px solid #cbcbcb;
+}
+.mobil-cards {
+    display: none;
 }
 .card {
     width: 255px;
@@ -678,7 +721,7 @@ p.lorem-t2 {
     letter-spacing: .62px;
     padding-bottom: 3px;
 }
-.card span {
+.card > span {
     color: #4E4D4D;
     padding-left: 49px;
     font-size: 15px;
@@ -698,9 +741,35 @@ p.lorem-t2 {
     font-size: 19px;
     font-weight: 100;
 }
-.dot {
-    padding-left: 15%;
-    padding-top: 2%;
+.point {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .purple {
+    background-color:#387FCB;
+  }
+  
+  .orange {
+    background-color:#F7CE44;
+  }
+  
+  .orangered {
+    background-color: #E86A1C;
+  }
+  
+  .red {
+    background-color: #E81C1C;
+  }
+  
+  .grey{
+    background-color:#C4C3C3;
+  
+  }
+.card-dots {
+    padding-left: 19.5%;
+    padding-top: 7px;
 }
 /* social-menu */
 .social-media {
