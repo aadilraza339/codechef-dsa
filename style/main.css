@@ -204,7 +204,7 @@
     margin-top: 308px;
     padding-left: 1px;
 }
-.mobile-reg {
+.mobile-reg,.mob_l_arrow,.mob_r_arrow {
     display: none;
 }
 .card-l {

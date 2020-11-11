@@ -204,11 +204,9 @@
         font-size: 14px;
         padding-left: 8.59%;
         padding-top: 27px;
-        /* margin-top: 0px; */
         position: relative;
         top: -2px;
     }
-
     .date {
         font-size: 18px;
         float: right;
@@ -216,7 +214,6 @@
         margin-top: -20px;
         letter-spacing: .5px;
     }
-    /* dsa-certi */
     .dsa-certi {
         height: 669px;
     }
@@ -393,7 +390,6 @@
         margin-top: 20%;
         letter-spacing: -1.7px;
     }
-    
     .lorem-t {
         text-align: start;
         margin-top: -30px;
@@ -602,7 +598,6 @@
     #cc-dsa {
         font-size: 14px;
     }
-    
     .i-con {
         padding-left: 0%;
         padding-top: 13px;
@@ -639,8 +634,7 @@
         padding-top: 32px;
         font-weight: 600;
         font-size: 21px;
-    }
-    
+    }  
     .footer > img {
         text-align: center;
         padding-left: 202px;
