@@ -127,10 +127,9 @@
         padding-left: 5.7%;
     }
     .home1 p {
-        border: 2px solid #ff5912;
         width: 13px;
-        border-radius: 3px;
         margin-top: 2px;
+        margin-left: 1px;
     }
     .lev {
         left: 0px;
@@ -235,6 +234,10 @@
     .next-p {
         padding-top: 34.2px !important;
         padding-right: 14% !important;
+        letter-spacing: .4px !important;
+    }
+    .dwon {
+        margin-top: 20px;
     }
     .pera {
         letter-spacing: .4px;
@@ -257,7 +260,7 @@
         font-size: 4.2vw;
     }
     .horizontal {
-        width: 30px;
+        width: 27px;
         margin-top: 10px;
     }
     .foundation {
@@ -416,7 +419,7 @@
         padding-left: 37px;
         text-align: start;
         margin-top: 20%;
-        letter-spacing: -1.7px;
+        letter-spacing: -2.28px;
     }
     .lorem-t {
         text-align: start;
@@ -600,9 +603,10 @@
     }
     .card > span {
         padding-left: 45px;
-        font-size: 13px;
+        font-size: 14px;
         position: relative;
         top: -2px;
+        letter-spacing: .3px;
     }
     .under-line {
         width: 149px;
@@ -619,7 +623,7 @@
     }
     .card-dots {
         padding-left: 20%;
-        padding-top: 7px;
+        padding-top: 6px;
     }
     .point {
         height: 10px;
@@ -663,7 +667,8 @@
         top: 1px;
     }
     .tw {
-        width: 30px; 
+        left: 0px;
+        width: 30px;
     }  
     .gg {
         width: 27px;

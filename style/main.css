@@ -46,8 +46,8 @@
     font-size: 16px;
 }
 .header-right button {
-    padding-left: 10px;
-    font-size: 17px;
+    padding-left: 8px;
+    font-size: 16px;
     border: 1px solid rgb(252, 92, 34);
     background-color: white;
     border-radius: 3px;
@@ -79,7 +79,7 @@
 .nav-menu {
     display: -webkit-inline-flex;
     float: right;
-    margin-top: 30px;
+    margin-top: 29.8px;
     margin-right: 296px;
 }
 .nav-menu li {
@@ -137,7 +137,7 @@
     right: 6px;
 }
 .dots {
-    padding-left: 119%;
+    padding-left: 118.7%;
     margin-top: -12px;
 }
 .dsa-banner {
@@ -155,7 +155,7 @@
     letter-spacing: 1.7px;
     font-size: 2.64vw;
     position: relative;
-    right: 1px;
+    right: 1.6px;
 }
 .dsa-banner p {
     font-size: 1.49vw;
@@ -177,7 +177,7 @@
 .banner-button ,.levels-button{ 
     width: 14.1%;
     height: 55px;
-    font-size: 22px;
+    font-size: 21px;
     border: none;
     background-color: #ff4107;
     color: white;
@@ -224,7 +224,7 @@ section {
     font-size: 1.3vw;
     letter-spacing: .89px;
     color: #2F2F2F;
-    font-weight: 350;   
+    font-weight: 350;
 }
 .des-img p del {
     font-size: 24px;
@@ -235,7 +235,7 @@ section {
     line-height: 35px;
 }
 .red-title {
-    padding-top: 12px;
+    padding-top: 11.4px;
     color: #ff4107 !important;
 }
 .mock {
@@ -257,7 +257,7 @@ section {
 .des-img {
     min-width: 60%;
     margin-right: 21px;
-    padding-top: 30px;
+    padding-top: 32px;
 }
 .rs {
     margin-top: 53px;
@@ -279,15 +279,16 @@ section {
     position: absolute;
     left: -2px;
     top: 20px;
-    bottom: 16px;
-    width: 116%;
+    bottom: 19px;
+    width: 111%;
     background: linear-gradient(to left top, transparent 47.5%, currentColor 52.5%, currentColor 55.5%, transparent 42.5%);
   }
 .p-dis {
-    padding-left: 14px;
+    padding-left: 12.5px;
+    letter-spacing: 2px;
 }
 .Avail {
-    letter-spacing: 2px;
+    letter-spacing: 2.05px;
     padding-top: .9px;
     display: block;
 }
@@ -329,7 +330,7 @@ section {
 }
 .dsa-certi h1 {
     font-size: 53px;
-    padding-top: 5.19%;
+    padding-top: 5.299%;
     text-align: center;
     padding-left: 14px;
     letter-spacing: .2px;
@@ -337,16 +338,17 @@ section {
     color: #4a4a4a;
 }
 .dsa-Description p {
-    padding-top: 41px;
+    padding-top: 39.1px;
     font-size: 22px;
     padding-left: 19.1%;
     color: #4a4a4a;
-    letter-spacing: 1.24px;
+    letter-spacing: 1.28px;
     line-height: 1.93;
     padding-right: 17%;
     font-weight: 400;
 }
 .next-p {
+    letter-spacing: 1.24px !important;
     padding-top: 43px !important;
 }
 .pera {
@@ -370,7 +372,7 @@ section {
 } 
 .foundation {
     letter-spacing: .9px;
-    margin-top: 0.5%;
+    margin-top: 0.69%;
     color: #34404B;
     font-weight: 600;
     font-size: 1.25vw;
@@ -390,7 +392,7 @@ section {
 }
 .horizontal {
     border: 2px solid #ff5912;
-    width: 20px;
+    width: 26px;
     border-radius: 3px;
     margin-top: 8px;
     margin-left: 2px;
@@ -457,11 +459,11 @@ section {
     text-align: center;
 }
 .testimonials > h2 {
-    padding-top: 7%;
-    font-size: 55px;
-    font-weight: 350;
+    padding-top: 6.99%;
+    font-size: 54px;
+    font-weight: 400;
     padding-bottom: 2%;
-    padding-left: 11px;
+    padding-left: 9px;
 }
 .lorem-t {
     text-align: center;
@@ -470,7 +472,7 @@ section {
     margin-bottom: 81px;
 }
 .cc-card {
-    height: 428px;
+    height: 431px;
     width: 49%;
     margin-left: auto;
     background-color: white;
@@ -488,7 +490,7 @@ section {
 }
 .cc-photo {
     width: 9.6%;
-    height: 428px;
+    height: 431px;
     background-color: #F2F2F2;
     position: absolute;
 }
@@ -513,8 +515,8 @@ section {
 }
 .content_ccdsa {
     line-height: 35px;
-    letter-spacing: 1.79px;
-    font-size: 1.2vw;
+    letter-spacing: .9px;
+    font-size: 1.3vw;
     margin-right: 41%;
     font-weight: 300;
 }
@@ -522,10 +524,7 @@ section {
     color: #2F2F2F;
     margin-left: 17%;
 }
-/* .card-dot {
-    margin-left: 56.49%;
-    margin-top: 22px;
-} */
+
 .name {
     padding-top: 35px;
     padding-left: 2px;
@@ -578,7 +577,7 @@ h4.hr {
 }
 .Central-dots {
     margin-top: 17px;
-    margin-left: 58%;
+    margin-left: 57.7%;
 }
 .poi {
     padding-left: 1px;
@@ -589,10 +588,11 @@ h4.hr {
 }
 .cc-card i {
     position: absolute;
-    margin-top: 32px;
+    margin-top: 32.3px;
     font-size: 1.2vw;
-    letter-spacing: 2px;
-    font-weight: 300;
+    letter-spacing: 1.9px;
+    font-weight: 400;
+    padding-left: 1px;
 }
 .arrow-s img {
     width: 3.7%;
@@ -608,7 +608,7 @@ h4.hr {
 }
 .right-card {
     float: right;
-    margin-top: -386px;
+    margin-top: -390px;
     height: 356px;
     /* position: absolute; */
     background-color: white;
@@ -673,7 +673,7 @@ h4.hr {
 /* certified-users */
 .head-line {
     text-align: center;
-    padding-left: 3.19px;
+    padding-left: 5.19px;
     font-size: 52px;
     padding-top: 6.5%;
     font-weight: 400;
@@ -771,6 +771,9 @@ p.lorem-t2 {
     padding-left: 19.5%;
     padding-top: 7px;
 }
+.five-c {
+    margin-left: 24px;
+}
 /* social-menu */
 .social-media {
     background-color: #f2f2f2;
@@ -796,7 +799,9 @@ p.lorem-t2 {
     width: 14px;
 }
 .tw {
-   width: 32px;
+    left: 1px;
+    width: 32px;
+    position: relative;
 }
 .gg {
     width: 31px;
