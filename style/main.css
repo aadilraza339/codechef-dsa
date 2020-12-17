@@ -8,7 +8,6 @@
 .header {
     border-bottom: 1px solid #eaeaeb;
     padding: 1.5%;
-    color: #34404B;
     height: 21px;
 }
 .header-left {
@@ -16,11 +15,11 @@
     font-size: 13px;
     letter-spacing: 0.5px;
 }
-.header-left , .header-right {
-    display: -webkit-inline-flex;
+/* margin-left: 19%; */
+.dsa-info, .banner-button, .dsa-Description p, .levels > p, section, .one-line, .dsa {
+    margin-left: 19%;
 }
 .header-right {
-    float: right;
     padding-right: 5.7%;
 }
 .mail {
@@ -31,6 +30,10 @@
 }
 .logo img {
     padding-top: 1px;
+}
+/* float: left; */
+.logo, .login, .header-right button, .dsa-logo, .nav-menu li, .one-line, .dsa, .titles, .registration ul  li, .enrol ul > li, .courses h4, .left-cart, .menu-list2 > li  {
+    float: left;
 }
 .logo2 {
     padding-left: 23px;
@@ -73,30 +76,31 @@
     padding-left: 5px;
 }
 .dsa-logo {
-    float: left;
     padding-left: 6.35%;
 }
-.nav-menu {
-    display: -webkit-inline-flex;
+/*float: right; */
+.nav-menu, .chef-img, .des-img, .right-card, .header-right {
     float: right;
-    margin-top: 29.8px;
-    margin-right: 296px;
+}
+.nav-menu {
+    margin-top: 46.8px;
+    margin-right: 106px;
 }
 .nav-menu li {
-    padding: 7.89%;
     font-size: 19px;
-    color: #34404B;
+    padding-left: 41px;
 }
 .lev {
-    position: relative;
     left: 3px;
 }
 .Detail {
-    position: relative;
     left: 3px;
 }
-.chef-logo {
+/* position: absolute; */
+.chef-logo, .card-l, .rs, .strike_cut::before, .cc-photo, .right-cont, .content_ccdsa img, .left-cart, .left-card-dots, .cc-card i, .arrow-s img, .arrow-e  img, .right-img, .right-q, .footer h4, .footer > img, #cc-dsa img, .codechef-i, .pay, .p-card   {
     position: absolute;
+}
+.chef-logo {
     border: 1.3px solid #cbcbcb;
     padding-left: 3px;
     margin-top: 0.5%;
@@ -110,9 +114,6 @@
 }
 .dsa img {
     width: 153%;
-}
-.one-line, .dsa {
-    padding-left: 24%;
 }
 .home1 {
     color: #ff5912 !important;
@@ -133,12 +134,11 @@
     margin-left: 24px;
 }
 .f-level {
-    position: relative;
     right: 6px;
 }
 .dots {
-    padding-left: 118.7%;
-    margin-top: -12px;
+    padding-left: 87.7%;
+    margin-top: 60px;
 }
 .dsa-banner {
     height: 578px;
@@ -146,32 +146,33 @@
 }
 .dsa-info {
     padding-top: 162px;
-    margin-left: 19%;
     margin-right: 16%;
 }
-.dsa-banner h1 {
+
+/* color: #34404B; */
+.dsa-banner h1, .dsa-banner p, .enrol h1, .foundation, .head-line, .menu-list2 li, .header  {
     color: #34404B;
+
+}
+.dsa-banner h1 {
     line-height: 53px;
     letter-spacing: 1.7px;
     font-size: 2.64vw;
-    position: relative;
     right: 1.6px;
 }
 .dsa-banner p {
     font-size: 1.49vw;
     margin-top: 23px;
-    color: #34404B;
     letter-spacing: 1.4px;
     line-height: 2.6rem;
 }
 .banner-button {
-    margin-left: 19%;
     margin-top: 65px;
     letter-spacing: -.1px;
 }
 .levels-button {
-    margin-left: 43.2%;
-    margin-top: 101px;
+    margin-left: 7%;
+    margin-top: 299px;
     font-size: 21px !important;
 }
 .banner-button ,.levels-button{ 
@@ -183,41 +184,30 @@
     color: white;
 }
 .chef-img {
-    float: right;
     padding-right: 4.69%;
     margin-top: 86px;
     width: 214px;
 }
 .registration {
-    background-color: rgb(59, 56, 56);  
+    height: 69px;
+    background-color: rgb(59, 56, 56);
     letter-spacing: 0.25px;
-}
-.reg-cont {
-    display: -webkit-inline-flex;
-    color: white;
-    margin-left: 15%;
-}
-.com {
-    padding-left: 35px;
 }
 .title2 {
     margin-top: 308px;
     padding-left: 1px;
 }
-.mobile-reg,.mob_l_arrow,.mob_r_arrow,.content_ccdsa br {
+.mobile-reg,.mob_l_arrow,.mob_r_arrow,.content_ccdsa br, .com2, .card-m, .dis-p, .mobil-cards, .mobile-price {
     display: none;
 }
 .card-l {
-    position: absolute;
     width: 34.8%;
     right: 25.9%;
     margin-top: 33px;
 }
 section {
-    display: flex;
     margin-bottom: 3rem;
     justify-content: space-between;
-    padding-left: 19%;
     padding-right: 18%;
 }
 .des-img >h3 , .levels > p {
@@ -251,8 +241,7 @@ section {
 }
 .levels > p {
     line-height: 42px;
-    padding-top: 51px;
-    padding-left: 19%;
+    padding-top: 80px;
 }
 .des-img {
     min-width: 60%;
@@ -261,7 +250,6 @@ section {
 }
 .rs {
     margin-top: 53px;
-    position: absolute;
     font-size: 1.3vw;
     line-height: 3vw;
     margin-left: 3.5%;
@@ -269,14 +257,11 @@ section {
     font-weight: 100;
 }
 .strike_cut {
-    display: inline-block;
-    position: relative;
     top: 3px;
     right: 2px;
   }
   .strike_cut::before {
     content: '';
-    position: absolute;
     left: -2px;
     top: 20px;
     bottom: 19px;
@@ -292,8 +277,9 @@ section {
     padding-top: .9px;
     display: block;
 }
+
+
 .registration ul {
-    display: -webkit-inline-flex;
     list-style: none;
     margin-left: 19%;
     color: white;
@@ -328,10 +314,13 @@ section {
     height: 522px;
     background-color: #f2f6f8;
 }
+/*  text-align: center; */
+.dsa-certi h1, .enrol h1, .testimonials > h2, .testimonials > p, .lorem-t, .head-line, p.lorem-t2, .social-media, .social-media h3  {
+    text-align: center;
+}
 .dsa-certi h1 {
     font-size: 53px;
     padding-top: 5.299%;
-    text-align: center;
     padding-left: 14px;
     letter-spacing: .2px;
     font-weight: 400;
@@ -340,7 +329,6 @@ section {
 .dsa-Description p {
     padding-top: 39.1px;
     font-size: 22px;
-    padding-left: 19.1%;
     color: #4a4a4a;
     letter-spacing: 1.28px;
     line-height: 1.93;
@@ -357,23 +345,19 @@ section {
 .enrol {
     margin-top: 4%;
 }
-.enrol h1{
-    text-align: center;
+.enrol h1 {
     font-size: 2.9vw;
     letter-spacing: 1px;
-    color: #34404b;
     font-weight: 400;
     padding-left: .50%;
 }
 .enrol > ul {
-    display: -webkit-inline-flex;
     padding-top: 29px;
     margin-left: 32.5%;
 } 
 .foundation {
     letter-spacing: .9px;
     margin-top: 0.69%;
-    color: #34404B;
     font-weight: 600;
     font-size: 1.25vw;
 }
@@ -383,12 +367,8 @@ section {
     font-weight: 400;
     font-size: 1.5vw;
 }
-.Exp {
-
-    padding-left: 35.8%;
-}
-.Advanced { 
-    padding-left: 37.8%;
+.Exp , .Advanced { 
+    padding-left: 10.8%;
 }
 .horizontal {
     border: 2px solid #ff5912;
@@ -421,17 +401,12 @@ section {
     color: #ff5912;
     letter-spacing: 2.7px;
 }
-.com2 {
-    display: none;
-}
 .courses {
-    position: relative;
     font-size: 24px;
 }
-.courses h4{
+.courses h4 {
     padding-left: 324px;
     font-size: 25px;
-    float: left;
     padding-top: 109px;
 }
 .courses > div {
@@ -447,16 +422,10 @@ section {
     margin-left: 41%;
     margin-top: 60px;
 }
-.card-m {
-    display: none;
-}
 .testimonials {
     background-color: #f2f6f8;
     margin-top: 6%;
     height: 920px;
-}
-.testimonials > h2, .testimonials > p {
-    text-align: center;
 }
 .testimonials > h2 {
     padding-top: 6.99%;
@@ -466,7 +435,6 @@ section {
     padding-left: 9px;
 }
 .lorem-t {
-    text-align: center;
     font-size: 21.9px;
     letter-spacing: 1.35px;
     margin-bottom: 81px;
@@ -488,11 +456,14 @@ section {
     margin-left: 39%;
     width: 73%;
 }
+/* background-color: #f2f2f2; */
+.cc-photo, .social-media, .footer{
+    background-color: #F2F2F2;
+
+}
 .cc-photo {
     width: 9.6%;
     height: 431px;
-    background-color: #F2F2F2;
-    position: absolute;
 }
 .sof {
     padding-top: 7px;
@@ -501,14 +472,9 @@ section {
     letter-spacing: .9px;
 }
 .right-cont {
-    position: absolute;
     margin-top: 63px;
 }
-.dis-p {
-    display: none;
-}
 .content_ccdsa img {
-    position: absolute;
     margin-left: -3%;
     margin-top: -17px;
     width: 2.4%;
@@ -532,16 +498,12 @@ section {
     letter-spacing: 1.5px;
 }
 .left-cart {
-    float: left;
     height: 356px;
-    position: absolute;
     background-color: #ffffff;
-    /* opacity: .2; */
     margin-top: 2%;
     width: 12.69%;
 }
 .left-card-dots {
-    position: absolute;
     left: 131px;
 }
 .p {
@@ -549,7 +511,6 @@ section {
     width: 12px;
     margin-left: -3px;
     border-radius: 50%;
-    display: inline-block;
 }
 .left-cart > h5 {
     font-size: 1.2vw;
@@ -584,10 +545,8 @@ h4.hr {
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    display: inline-block;
 }
 .cc-card i {
-    position: absolute;
     margin-top: 32.3px;
     font-size: 1.2vw;
     letter-spacing: 1.9px;
@@ -596,28 +555,22 @@ h4.hr {
 }
 .arrow-s img {
     width: 3.7%;
-    position: absolute;
     left: 19%;
     margin-top: 182px;
 }
 .arrow-e  img {
     width: 3.7%;
-    position: absolute;
     right: 18.1%;
     margin-top: -247px;
 }
 .right-card {
-    float: right;
     margin-top: -390px;
     height: 356px;
-    /* position: absolute; */
     background-color: white;
-    /* opacity: .2; */
     width: 16%;
 
 }
 .right-img {
-    position: absolute;
     background-color: #f7f7f7;
     width: 1;
     height: 356px;
@@ -632,8 +585,6 @@ h4.hr {
 .right-card .right-q {
     margin-left: 155px;
     margin-top: 36px;
-    position: absolute;
-    /* top: 48px; */
     width: 28px;
 }
 .r-p {
@@ -672,17 +623,14 @@ h4.hr {
 
 /* certified-users */
 .head-line {
-    text-align: center;
     padding-left: 5.19px;
     font-size: 52px;
     padding-top: 6.5%;
     font-weight: 400;
-    color: #34404b;
     letter-spacing: .69px;
 }
 p.lorem-t2 {
     padding-top: 22px;
-    text-align: center;
     font-size: 22px;
     letter-spacing: 1.29px;
 }
@@ -693,13 +641,9 @@ p.lorem-t2 {
     background: linear-gradient(to right, #f7f7f7 55%, #ffffff 45%);
     border: 1px solid #cbcbcb;
 }
-.mobil-cards {
-    display: none;
-}
 .card {
     width: 255px;
     margin: 38px 21.69px 28px 21.69px;
-    display: inline-block;
     height: 458px;
 }
 .user-img {
@@ -734,7 +678,6 @@ p.lorem-t2 {
     margin-left: 49px;
     margin-top: 21px;
 }
-
 .tag {
     padding-top: 17px;
     margin-left: 49px;
@@ -745,7 +688,6 @@ p.lorem-t2 {
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    display: inline-block;
   }
   .purple {
     background-color:#387FCB;
@@ -776,14 +718,11 @@ p.lorem-t2 {
 }
 /* social-menu */
 .social-media {
-    background-color: #f2f2f2;
     margin-top: 104px;
     border-bottom: 2px solid white;
-    text-align: center;
     height: 141px;
 }
 .social-media h3 {
-    text-align: center;
     padding-top: 31px;
     font-weight: 300;
     padding-left: .69%;
@@ -798,10 +737,13 @@ p.lorem-t2 {
 .fb {
     width: 14px;
 }
+/* position: relative; */
+.tw, .menu-list > li b, .practise, .compete, .discuss, .discuss, .initiative, .community, .codechef-img,.lev, .Detail, .f-level, .dsa-banner h1, .strike_cut, .courses {
+    position: relative;
+}
 .tw {
     left: 1px;
     width: 32px;
-    position: relative;
 }
 .gg {
     width: 31px;
@@ -812,101 +754,84 @@ p.lorem-t2 {
 }
 /*  */
 .footer {
-    background-color: #f2f2f2;
     padding: 11px;
     height: 188px;
 }
 .footer h4 {
     margin-left: 7%;
     margin-top: 63px;
-    position: absolute;
 }
 .footer > img {
     margin-left: 8%;
     padding-top: 4.8%;
-    position: absolute;
 }
 .menu-list {
     margin-top: 12px;
-    display: -webkit-inline-flex;
     margin-left: 5.4%;
     font-weight: 100;
 }
 #cc-dsa img {
     width: 2%;
     margin-left: 1.7%;
-    position: absolute;
-}    
-.menu-list li {
+}
+/*display: inline-block;  */
+.menu-list > li, .strike_cut, .p, .poi, .card, .point {
+    display: inline-block;
+}
+.menu-list > li {
     font-size: 1vw;
     padding: 36px 26px 26px;
     padding-left: 27px;
     letter-spacing: .5px;
 }
-.menu-list li b {
-    position: relative;
+.menu-list > li b {
     left: 2px;
 }
 
 .menu-list2 {
-    display: -webkit-inline-flex;
     margin-left: 3%;
 }
-.menu-list2 li {
+.menu-list2 > li {
     font-size: 1vw;
-    padding-left: 8.9%;
+    padding-left: 3.1%;
     font-weight: 400;
-    color: #34404B;
     letter-spacing: .3px;
 }
 .codechef-i {
-    position: absolute;
     left: 7%;
     margin-top: 2%;
 }
 .pay {
     font-size: 0.9vw;
-    position: absolute;
     font-weight: 500;
     right: 364px;
     letter-spacing: 1px;
 }
-
 .codechef-i > img {
     width: 88px; 
 }
-.p-card{
-    position: absolute;
+.p-card {
     right: 5.99%;
     width: 11%;
 }
 .practise {
-    position: relative;
     left: 2px;
     margin-left: 17px;
 }
 .compete {
-    position: relative;
     left: 8px;
 }
 .discuss {
-    position: relative;
     left: 6px;
 }
 .initiative {
-    position: relative;
     left: 5px;
 }
 .community {
     padding-right: 38px;
-    position: relative;
     left: 1px;
 }
 .codechef-img {
     height: 13px;
-    position: relative;
     left: 3px;
-}
-.mobile-price {
-    display: none;
 }
